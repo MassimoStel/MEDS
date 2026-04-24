@@ -1,0 +1,474 @@
+{
+  "run_id": "0c47c5630b",
+  "call_name": "call3_forma_mentis_batch1",
+  "task": "call3",
+  "mode": "human",
+  "persona": {
+    "gender": "transgender",
+    "sexual_orientation": "homosexual",
+    "age": 20,
+    "city_of_living": "Lecce",
+    "employment_status": "unemployed",
+    "education_level": "vocational diploma",
+    "parents_education": {
+      "parent_1": "PhD",
+      "parent_2": "no formal education"
+    },
+    "marital_status": "single",
+    "children": 0,
+    "migration_status": "native-born Italian",
+    "religious_beliefs": "Islam",
+    "hobbies": [
+      "classical music",
+      "yoga",
+      "cinema",
+      "running"
+    ],
+    "fav_subjects": [
+      "history",
+      "philosophy"
+    ],
+    "hat_subjects": [
+      "computer science",
+      "economics"
+    ],
+    "ocean": {
+      "openness": {
+        "score": 19,
+        "level": "low"
+      },
+      "conscientiousness": {
+        "score": 87,
+        "level": "high"
+      },
+      "extraversion": {
+        "score": 81,
+        "level": "high"
+      },
+      "agreeableness": {
+        "score": 52,
+        "level": "moderate"
+      },
+      "neuroticism": {
+        "score": 18,
+        "level": "low"
+      }
+    }
+  },
+  "model": "magistral-small-latest",
+  "base_url": "https://api.mistral.ai",
+  "response_parsed": {
+    "task": "call3",
+    "run_id": "0c47c5630b",
+    "mode": "human",
+    "persona": {
+      "gender": "transgender",
+      "sexual_orientation": "homosexual",
+      "age": 20,
+      "city_of_living": "Lecce",
+      "employment_status": "unemployed",
+      "education_level": "vocational diploma",
+      "parents_education": {
+        "parent_1": "PhD",
+        "parent_2": "no formal education"
+      },
+      "marital_status": "single",
+      "children": 0,
+      "migration_status": "native-born Italian",
+      "religious_beliefs": "Islam",
+      "hobbies": [
+        "classical music",
+        "yoga",
+        "cinema",
+        "running"
+      ],
+      "fav_subjects": [
+        "history",
+        "philosophy"
+      ],
+      "hat_subjects": [
+        "computer science",
+        "economics"
+      ],
+      "ocean": {
+        "openness": {
+          "score": 19,
+          "level": "low"
+        },
+        "conscientiousness": {
+          "score": 87,
+          "level": "high"
+        },
+        "extraversion": {
+          "score": 81,
+          "level": "high"
+        },
+        "agreeableness": {
+          "score": 52,
+          "level": "moderate"
+        },
+        "neuroticism": {
+          "score": 18,
+          "level": "low"
+        }
+      }
+    },
+    "cue_words": [
+      "lecture",
+      "classroom",
+      "student",
+      "exam",
+      "professor",
+      "study",
+      "numbers",
+      "STEM",
+      "theorem",
+      "variable",
+      "mathematics",
+      "teacher",
+      "data",
+      "computation",
+      "informatics",
+      "experiment",
+      "career",
+      "work",
+      "grade",
+      "knowledge",
+      "blackboard",
+      "biology",
+      "anxiety",
+      "proof",
+      "music"
+    ],
+    "parsed": {
+      "mode": "human",
+      "forma_mentis": {
+        "lecture": {
+          "associations": [
+            "history",
+            "philosophy",
+            "knowledge"
+          ],
+          "valence": {
+            "lecture": 4,
+            "history": 5,
+            "philosophy": 5,
+            "knowledge": 4
+          }
+        },
+        "classroom": {
+          "associations": [
+            "student",
+            "teacher",
+            "blackboard"
+          ],
+          "valence": {
+            "classroom": 3,
+            "student": 4,
+            "teacher": 3,
+            "blackboard": 3
+          }
+        },
+        "student": {
+          "associations": [
+            "study",
+            "exam",
+            "knowledge"
+          ],
+          "valence": {
+            "student": 3,
+            "study": 4,
+            "exam": 2,
+            "knowledge": 4
+          }
+        },
+        "exam": {
+          "associations": [
+            "anxiety",
+            "grade",
+            "study"
+          ],
+          "valence": {
+            "exam": 2,
+            "anxiety": 1,
+            "grade": 3,
+            "study": 3
+          }
+        },
+        "professor": {
+          "associations": [
+            "teacher",
+            "lecture",
+            "knowledge"
+          ],
+          "valence": {
+            "professor": 3,
+            "teacher": 3,
+            "lecture": 4,
+            "knowledge": 4
+          }
+        },
+        "study": {
+          "associations": [
+            "history",
+            "philosophy",
+            "knowledge"
+          ],
+          "valence": {
+            "study": 4,
+            "history": 5,
+            "philosophy": 5,
+            "knowledge": 4
+          }
+        },
+        "numbers": {
+          "associations": [
+            "mathematics",
+            "computation",
+            "anxiety"
+          ],
+          "valence": {
+            "numbers": 2,
+            "mathematics": 1,
+            "computation": 1,
+            "anxiety": 2
+          }
+        },
+        "STEM": {
+          "associations": [
+            "mathematics",
+            "informatics",
+            "anxiety"
+          ],
+          "valence": {
+            "STEM": 1,
+            "mathematics": 1,
+            "informatics": 1,
+            "anxiety": 2
+          }
+        },
+        "theorem": {
+          "associations": [
+            "mathematics",
+            "proof",
+            "anxiety"
+          ],
+          "valence": {
+            "theorem": 1,
+            "mathematics": 1,
+            "proof": 1,
+            "anxiety": 2
+          }
+        },
+        "variable": {
+          "associations": [
+            "mathematics",
+            "computation",
+            "anxiety"
+          ],
+          "valence": {
+            "variable": 1,
+            "mathematics": 1,
+            "computation": 1,
+            "anxiety": 2
+          }
+        },
+        "mathematics": {
+          "associations": [
+            "numbers",
+            "theorem",
+            "anxiety"
+          ],
+          "valence": {
+            "mathematics": 1,
+            "numbers": 2,
+            "theorem": 1,
+            "anxiety": 2
+          }
+        },
+        "teacher": {
+          "associations": [
+            "classroom",
+            "student",
+            "knowledge"
+          ],
+          "valence": {
+            "teacher": 3,
+            "classroom": 3,
+            "student": 4,
+            "knowledge": 4
+          }
+        },
+        "data": {
+          "associations": [
+            "informatics",
+            "computation",
+            "anxiety"
+          ],
+          "valence": {
+            "data": 2,
+            "informatics": 1,
+            "computation": 1,
+            "anxiety": 2
+          }
+        },
+        "computation": {
+          "associations": [
+            "mathematics",
+            "informatics",
+            "anxiety"
+          ],
+          "valence": {
+            "computation": 1,
+            "mathematics": 1,
+            "informatics": 1,
+            "anxiety": 2
+          }
+        },
+        "informatics": {
+          "associations": [
+            "mathematics",
+            "computation",
+            "anxiety"
+          ],
+          "valence": {
+            "informatics": 1,
+            "mathematics": 1,
+            "computation": 1,
+            "anxiety": 2
+          }
+        },
+        "experiment": {
+          "associations": [
+            "biology",
+            "knowledge",
+            "anxiety"
+          ],
+          "valence": {
+            "experiment": 3,
+            "biology": 3,
+            "knowledge": 4,
+            "anxiety": 2
+          }
+        },
+        "career": {
+          "associations": [
+            "work",
+            "knowledge",
+            "anxiety"
+          ],
+          "valence": {
+            "career": 2,
+            "work": 3,
+            "knowledge": 4,
+            "anxiety": 2
+          }
+        },
+        "work": {
+          "associations": [
+            "career",
+            "anxiety",
+            "knowledge"
+          ],
+          "valence": {
+            "work": 3,
+            "career": 2,
+            "anxiety": 2,
+            "knowledge": 4
+          }
+        },
+        "grade": {
+          "associations": [
+            "exam",
+            "student",
+            "anxiety"
+          ],
+          "valence": {
+            "grade": 3,
+            "exam": 2,
+            "student": 3,
+            "anxiety": 1
+          }
+        },
+        "knowledge": {
+          "associations": [
+            "lecture",
+            "study",
+            "history"
+          ],
+          "valence": {
+            "knowledge": 4,
+            "lecture": 4,
+            "study": 4,
+            "history": 5
+          }
+        },
+        "blackboard": {
+          "associations": [
+            "classroom",
+            "lecture",
+            "teacher"
+          ],
+          "valence": {
+            "blackboard": 3,
+            "classroom": 3,
+            "lecture": 4,
+            "teacher": 3
+          }
+        },
+        "biology": {
+          "associations": [
+            "experiment",
+            "knowledge",
+            "study"
+          ],
+          "valence": {
+            "biology": 3,
+            "experiment": 3,
+            "knowledge": 4,
+            "study": 3
+          }
+        },
+        "anxiety": {
+          "associations": [
+            "exam",
+            "STEM",
+            "mathematics"
+          ],
+          "valence": {
+            "anxiety": 1,
+            "exam": 2,
+            "STEM": 1,
+            "mathematics": 1
+          }
+        },
+        "proof": {
+          "associations": [
+            "theorem",
+            "mathematics",
+            "anxiety"
+          ],
+          "valence": {
+            "proof": 1,
+            "theorem": 1,
+            "mathematics": 1,
+            "anxiety": 1
+          }
+        },
+        "music": {
+          "associations": [
+            "classical",
+            "yoga",
+            "relaxation"
+          ],
+          "valence": {
+            "music": 5,
+            "classical": 5,
+            "yoga": 4,
+            "relaxation": 5
+          }
+        }
+      }
+    }
+  }
+}

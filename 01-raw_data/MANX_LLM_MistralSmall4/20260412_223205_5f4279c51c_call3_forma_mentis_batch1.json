@@ -1,0 +1,474 @@
+{
+  "run_id": "5f4279c51c",
+  "call_name": "call3_forma_mentis_batch1",
+  "task": "call3",
+  "mode": "human",
+  "persona": {
+    "gender": "woman",
+    "sexual_orientation": "heterosexual",
+    "age": 24,
+    "city_of_living": "Milan",
+    "employment_status": "unemployed",
+    "education_level": "lower secondary",
+    "parents_education": {
+      "parent_1": "lower secondary",
+      "parent_2": "upper secondary"
+    },
+    "marital_status": "married",
+    "children": 2,
+    "migration_status": "native-born Italian",
+    "religious_beliefs": "Christianity",
+    "hobbies": [
+      "volunteering",
+      "knitting",
+      "videogames",
+      "cycling"
+    ],
+    "fav_subjects": [
+      "maths",
+      "chemistry"
+    ],
+    "hat_subjects": [
+      "biology",
+      "physics"
+    ],
+    "ocean": {
+      "openness": {
+        "score": 29,
+        "level": "low"
+      },
+      "conscientiousness": {
+        "score": 35,
+        "level": "moderate"
+      },
+      "extraversion": {
+        "score": 99,
+        "level": "high"
+      },
+      "agreeableness": {
+        "score": 90,
+        "level": "high"
+      },
+      "neuroticism": {
+        "score": 83,
+        "level": "high"
+      }
+    }
+  },
+  "model": "mistral-small-latest",
+  "base_url": "https://api.mistral.ai",
+  "response_parsed": {
+    "task": "call3",
+    "run_id": "5f4279c51c",
+    "mode": "human",
+    "persona": {
+      "gender": "woman",
+      "sexual_orientation": "heterosexual",
+      "age": 24,
+      "city_of_living": "Milan",
+      "employment_status": "unemployed",
+      "education_level": "lower secondary",
+      "parents_education": {
+        "parent_1": "lower secondary",
+        "parent_2": "upper secondary"
+      },
+      "marital_status": "married",
+      "children": 2,
+      "migration_status": "native-born Italian",
+      "religious_beliefs": "Christianity",
+      "hobbies": [
+        "volunteering",
+        "knitting",
+        "videogames",
+        "cycling"
+      ],
+      "fav_subjects": [
+        "maths",
+        "chemistry"
+      ],
+      "hat_subjects": [
+        "biology",
+        "physics"
+      ],
+      "ocean": {
+        "openness": {
+          "score": 29,
+          "level": "low"
+        },
+        "conscientiousness": {
+          "score": 35,
+          "level": "moderate"
+        },
+        "extraversion": {
+          "score": 99,
+          "level": "high"
+        },
+        "agreeableness": {
+          "score": 90,
+          "level": "high"
+        },
+        "neuroticism": {
+          "score": 83,
+          "level": "high"
+        }
+      }
+    },
+    "cue_words": [
+      "STEM",
+      "logic",
+      "teamwork",
+      "biology",
+      "numbers",
+      "informatics",
+      "future",
+      "grade",
+      "work",
+      "variable",
+      "anxiety",
+      "knowledge",
+      "art",
+      "proof",
+      "study",
+      "history",
+      "career",
+      "science",
+      "computation",
+      "problem-solving",
+      "creativity",
+      "experiment",
+      "philosophy",
+      "blackboard",
+      "job"
+    ],
+    "parsed": {
+      "mode": "human",
+      "forma_mentis": {
+        "STEM": {
+          "associations": [
+            "maths",
+            "chemistry",
+            "future"
+          ],
+          "valence": {
+            "STEM": 4,
+            "maths": 4,
+            "chemistry": 4,
+            "future": 3
+          }
+        },
+        "logic": {
+          "associations": [
+            "maths",
+            "problem-solving",
+            "proof"
+          ],
+          "valence": {
+            "logic": 4,
+            "maths": 4,
+            "problem-solving": 4,
+            "proof": 3
+          }
+        },
+        "teamwork": {
+          "associations": [
+            "volunteering",
+            "job",
+            "career"
+          ],
+          "valence": {
+            "teamwork": 5,
+            "volunteering": 5,
+            "job": 3,
+            "career": 3
+          }
+        },
+        "biology": {
+          "associations": [
+            "experiment",
+            "study",
+            "anxiety"
+          ],
+          "valence": {
+            "biology": 2,
+            "experiment": 3,
+            "study": 3,
+            "anxiety": 1
+          }
+        },
+        "numbers": {
+          "associations": [
+            "maths",
+            "computation",
+            "variable"
+          ],
+          "valence": {
+            "numbers": 4,
+            "maths": 4,
+            "computation": 3,
+            "variable": 3
+          }
+        },
+        "informatics": {
+          "associations": [
+            "computation",
+            "problem-solving",
+            "future"
+          ],
+          "valence": {
+            "informatics": 3,
+            "computation": 3,
+            "problem-solving": 4,
+            "future": 3
+          }
+        },
+        "future": {
+          "associations": [
+            "career",
+            "job",
+            "anxiety"
+          ],
+          "valence": {
+            "future": 3,
+            "career": 3,
+            "job": 3,
+            "anxiety": 1
+          }
+        },
+        "grade": {
+          "associations": [
+            "study",
+            "anxiety",
+            "knowledge"
+          ],
+          "valence": {
+            "grade": 2,
+            "study": 3,
+            "anxiety": 1,
+            "knowledge": 4
+          }
+        },
+        "work": {
+          "associations": [
+            "job",
+            "career",
+            "teamwork"
+          ],
+          "valence": {
+            "work": 3,
+            "job": 3,
+            "career": 3,
+            "teamwork": 5
+          }
+        },
+        "variable": {
+          "associations": [
+            "maths",
+            "computation",
+            "numbers"
+          ],
+          "valence": {
+            "variable": 3,
+            "maths": 4,
+            "computation": 3,
+            "numbers": 4
+          }
+        },
+        "anxiety": {
+          "associations": [
+            "study",
+            "grade",
+            "future"
+          ],
+          "valence": {
+            "anxiety": 1,
+            "study": 3,
+            "grade": 2,
+            "future": 3
+          }
+        },
+        "knowledge": {
+          "associations": [
+            "study",
+            "grade",
+            "future"
+          ],
+          "valence": {
+            "knowledge": 4,
+            "study": 3,
+            "grade": 2,
+            "future": 3
+          }
+        },
+        "art": {
+          "associations": [
+            "creativity",
+            "history",
+            "philosophy"
+          ],
+          "valence": {
+            "art": 3,
+            "creativity": 4,
+            "history": 2,
+            "philosophy": 2
+          }
+        },
+        "proof": {
+          "associations": [
+            "logic",
+            "maths",
+            "problem-solving"
+          ],
+          "valence": {
+            "proof": 3,
+            "logic": 4,
+            "maths": 4,
+            "problem-solving": 4
+          }
+        },
+        "study": {
+          "associations": [
+            "knowledge",
+            "grade",
+            "anxiety"
+          ],
+          "valence": {
+            "study": 3,
+            "knowledge": 4,
+            "grade": 2,
+            "anxiety": 1
+          }
+        },
+        "history": {
+          "associations": [
+            "art",
+            "philosophy",
+            "career"
+          ],
+          "valence": {
+            "history": 2,
+            "art": 3,
+            "philosophy": 2,
+            "career": 3
+          }
+        },
+        "career": {
+          "associations": [
+            "job",
+            "future",
+            "teamwork"
+          ],
+          "valence": {
+            "career": 3,
+            "job": 3,
+            "future": 3,
+            "teamwork": 5
+          }
+        },
+        "science": {
+          "associations": [
+            "STEM",
+            "experiment",
+            "knowledge"
+          ],
+          "valence": {
+            "science": 4,
+            "STEM": 4,
+            "experiment": 3,
+            "knowledge": 4
+          }
+        },
+        "computation": {
+          "associations": [
+            "informatics",
+            "numbers",
+            "variable"
+          ],
+          "valence": {
+            "computation": 3,
+            "informatics": 3,
+            "numbers": 4,
+            "variable": 3
+          }
+        },
+        "problem-solving": {
+          "associations": [
+            "logic",
+            "maths",
+            "informatics"
+          ],
+          "valence": {
+            "problem-solving": 4,
+            "logic": 4,
+            "maths": 4,
+            "informatics": 3
+          }
+        },
+        "creativity": {
+          "associations": [
+            "art",
+            "philosophy",
+            "study"
+          ],
+          "valence": {
+            "creativity": 4,
+            "art": 3,
+            "philosophy": 2,
+            "study": 3
+          }
+        },
+        "experiment": {
+          "associations": [
+            "biology",
+            "study",
+            "science"
+          ],
+          "valence": {
+            "experiment": 3,
+            "biology": 2,
+            "study": 3,
+            "science": 4
+          }
+        },
+        "philosophy": {
+          "associations": [
+            "art",
+            "history",
+            "creativity"
+          ],
+          "valence": {
+            "philosophy": 2,
+            "art": 3,
+            "history": 2,
+            "creativity": 4
+          }
+        },
+        "blackboard": {
+          "associations": [
+            "study",
+            "maths",
+            "science"
+          ],
+          "valence": {
+            "blackboard": 3,
+            "study": 3,
+            "maths": 4,
+            "science": 4
+          }
+        },
+        "job": {
+          "associations": [
+            "career",
+            "future",
+            "teamwork"
+          ],
+          "valence": {
+            "job": 3,
+            "career": 3,
+            "future": 3,
+            "teamwork": 5
+          }
+        }
+      }
+    }
+  }
+}

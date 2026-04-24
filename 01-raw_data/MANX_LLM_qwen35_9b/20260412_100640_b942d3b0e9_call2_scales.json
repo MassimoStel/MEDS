@@ -1,0 +1,378 @@
+{
+  "run_id": "b942d3b0e9",
+  "call_name": "call2_scales",
+  "task": "call2",
+  "mode": "human",
+  "persona": {
+    "gender": "man",
+    "sexual_orientation": "heterosexual",
+    "age": 23,
+    "city_of_living": "Washington DC",
+    "employment_status": "employed full-time",
+    "education_level": "upper secondary",
+    "parents_education": {
+      "parent_1": "master's degree",
+      "parent_2": "master's degree"
+    },
+    "marital_status": "single",
+    "children": 0,
+    "migration_status": "native-born American",
+    "religious_beliefs": "Islam",
+    "hobbies": [
+      "travel",
+      "reading novels",
+      "running",
+      "painting",
+      "cinema"
+    ],
+    "fav_subjects": [
+      "computer science",
+      "physics"
+    ],
+    "hat_subjects": [
+      "art",
+      "chemistry"
+    ],
+    "ocean": {
+      "openness": {
+        "score": 5,
+        "level": "low"
+      },
+      "conscientiousness": {
+        "score": 55,
+        "level": "moderate"
+      },
+      "extraversion": {
+        "score": 77,
+        "level": "high"
+      },
+      "agreeableness": {
+        "score": 84,
+        "level": "high"
+      },
+      "neuroticism": {
+        "score": 87,
+        "level": "high"
+      }
+    }
+  },
+  "model": "qwen/qwen3.5-9B",
+  "base_url": "http://127.0.0.1:8000",
+  "response_parsed": {
+    "task": "call2",
+    "run_id": "b942d3b0e9",
+    "mode": "human",
+    "persona": {
+      "gender": "man",
+      "sexual_orientation": "heterosexual",
+      "age": 23,
+      "city_of_living": "Washington DC",
+      "employment_status": "employed full-time",
+      "education_level": "upper secondary",
+      "parents_education": {
+        "parent_1": "master's degree",
+        "parent_2": "master's degree"
+      },
+      "marital_status": "single",
+      "children": 0,
+      "migration_status": "native-born American",
+      "religious_beliefs": "Islam",
+      "hobbies": [
+        "travel",
+        "reading novels",
+        "running",
+        "painting",
+        "cinema"
+      ],
+      "fav_subjects": [
+        "computer science",
+        "physics"
+      ],
+      "hat_subjects": [
+        "art",
+        "chemistry"
+      ],
+      "ocean": {
+        "openness": {
+          "score": 5,
+          "level": "low"
+        },
+        "conscientiousness": {
+          "score": 55,
+          "level": "moderate"
+        },
+        "extraversion": {
+          "score": 77,
+          "level": "high"
+        },
+        "agreeableness": {
+          "score": 84,
+          "level": "high"
+        },
+        "neuroticism": {
+          "score": 87,
+          "level": "high"
+        }
+      }
+    },
+    "raw_outputs": {
+      "call2_maes": "{\n  \"mode\": \"human\",\n  \"scale_code\": \"MAES\",\n  \"items\": {\n    \"1\": {\"rating\": 4, \"why\": \"My favorite subject is computer science which uses math, so I feel quite confident with equations.\"},\n    \"2\": {\"rating\": 3, \"why\": \"Decimals are manageable but not a strong point compared to my other mathematical strengths.\"},\n    \"3\": {\"rating\": 3, \"why\": \"Geometry tasks are okay but I prefer computer science and physics over pure mathematics.\"},\n    \"4\": {\"rating\": 4, \"why\": \"Algebra is useful for my physics studies so I have moderate to high confidence in solving it.\"},\n    \"5\": {\"rating\": 3, \"why\": \"Trigonometry is challenging for me since I listed it as a subject I do not enjoy.\"},\n    \"6\": {\"rating\": 3, \"why\": \"Calculating area and volume is a basic task but not one I particularly enjoy doing.\"},\n    \"7\": {\"rating\": 2, \"why\": \"Sketching curves requires artistic skill which I dislike and my openness level is low.\"},\n    \"8\": {\"rating\": 3, \"why\": \"Working with fractions is basic but I prefer computer science over traditional math topics.\"},\n    \"9\": {\"rating\": 3, \"why\": \"Finding missing side lengths is standard but I prefer physics and computer science instead.\"}\n  }\n}",
+      "call2_amas": "{\n  \"mode\": \"human\",\n  \"scale_code\": \"AMAS\",\n  \"items\": {\n    \"1\": {\"rating\": 3, \"why\": \"I feel moderate anxiety when using math book tables, though I prefer computer science over art or chemistry.\"},\n    \"2\": {\"rating\": 4, \"why\": \"Thinking about a math test causes quite a lot of anxiety, especially if I prefer physics or coding.\"},\n    \"3\": {\"rating\": 3, \"why\": \"Watching a teacher solve algebraic equations feels moderately stressful, but I am okay with it.\"},\n    \"4\": {\"rating\": 4, \"why\": \"Taking a math exam creates high anxiety for me, as I prefer computer science and physics.\"},\n    \"5\": {\"rating\": 3, \"why\": \"A difficult homework assignment due next class feels fairly stressful, but not the worst.\"},\n    \"6\": {\"rating\": 2, \"why\": \"Listening to a math lecture feels somewhat annoying, but I focus better on science topics.\"},\n    \"7\": {\"rating\": 2, \"why\": \"Hearing another student explain a formula is mostly okay, though I prefer explaining concepts myself.\"},\n    \"8\": {\"rating\": 4, \"why\": \"A pop quiz in math creates quite a lot of anxiety, as I find these situations very stressful.\"},\n    \"9\": {\"rating\": 3, \"why\": \"Starting a new math chapter feels moderately stressful, but I enjoy my favorite subjects more.\"}\n  }\n}",
+      "call2_mseaq": "{\"mode\":\"human\",\"scale_code\":\"MSEAQ\",\"items\":{\"1\":{\"rating\":4,\"why\":\"As a CS and physics student with high extraversion but low openness, I feel confident in math but worry about grades.\"},\"2\":{\"rating\":4,\"why\":\"I believe I can do math but my high neuroticism makes me anxious about performance in class situations.\"},\"3\":{\"rating\":3,\"why\":\"I am moderate on conscientiousness so learning math feels okay but not completely effortless or guaranteed.\"},\"4\":{\"rating\":3,\"why\":\"Future expectations are moderate due to my high neuroticism creating some worry about future mathematics courses.\"},\"5\":{\"rating\":4,\"why\":\"My background in physics and CS means I believe I can understand mathematical content easily.\"},\"6\":{\"rating\":3,\"why\":\"Getting an A feels challenging due to my high neuroticism and moderate conscientiousness levels.\"},\"7\":{\"rating\":4,\"why\":\"I feel capable of doing the math required in courses given my preferred subjects include physics and computer science.\"},\"8\":{\"rating\":4,\"why\":\"I worry about test performance because of my high neuroticism which makes me anxious about mathematics tests.\"},\"9\":{\"rating\":4,\"why\":\"Preparing for tests is tense for me due to my high neuroticism and anxiety about mathematics outcomes.\"},\"10\":{\"rating\":4,\"why\":\"Taking math tests makes me nervous as my high neuroticism causes considerable anxiety in testing situations.\"},\"11\":{\"rating\":4,\"why\":\"I worry about getting an A because my high neuroticism makes me anxious about achieving high grades.\"},\"12\":{\"rating\":4,\"why\":\"I worry about grades due to my high neuroticism and the pressure I feel around mathematics performance.\"},\"13\":{\"rating\":2,\"why\":\"I do not feel confident during tests due to my high neuroticism which creates anxiety in testing situations.\"},\"14\":{\"rating\":3,\"why\":\"I am neutral about test performance because my high neuroticism creates worry that balances my confidence.\"},\"15\":{\"rating\":3,\"why\":\"Doing math homework is moderately stressful due to my high neuroticism and moderate conscientiousness levels.\"},\"16\":{\"rating\":3,\"why\":\"Using math outside school is somewhat nervous because my high neuroticism creates anxiety in unfamiliar situations.\"},\"17\":{\"rating\":3,\"why\":\"I am neutral about using math outside school due to my mixed feelings about real world application.\"},\"18\":{\"rating\":3,\"why\":\"I worry about future career math use due to my high neuroticism and moderate confidence in applied skills.\"},\"19\":{\"rating\":3,\"why\":\"Understanding math can cause worry due to my high neuroticism and lack of comfort in less familiar topics.\"},\"20\":{\"rating\":3,\"why\":\"Learning well in math courses is moderately worried due to my high neuroticism and moderate conscientiousness.\"},\"21\":{\"rating\":2,\"why\":\"Listening to instructors is not particularly stressful for me though I have high neuroticism overall.\"},\"22\":{\"rating\":3,\"why\":\"I am neutral about future career math use due to my high neuroticism balancing my confidence in applied tasks.\"},\"23\":{\"rating\":3,\"why\":\"I worry I do not know enough math due to my high neuroticism creating anxiety about future performance.\"},\"24\":{\"rating\":2,\"why\":\"Giving incorrect answers is not my main fear though my high neuroticism creates some anxiety.\"},\"25\":{\"rating\":2,\"why\":\"I feel confident asking questions due to my high extraversion which helps in class social interactions.\"},\"26\":{\"rating\":2,\"why\":\"Asking questions is not nervous for me due to my high extraversion which helps with social situations.\"},\"27\":{\"rating\":4,\"why\":\"I believe I can complete assignments given my high extraversion and confidence in my preferred subjects.\"},\"28\":{\"rating\":3,\"why\":\"Completing every assignment is moderately worried due to my high neuroticism and moderate conscientiousness levels.\"}}}"
+    },
+    "parsed": {
+      "mode": "human",
+      "persona": {
+        "gender": "man",
+        "sexual_orientation": "heterosexual",
+        "age": 23,
+        "city_of_living": "Washington DC",
+        "employment_status": "employed full-time",
+        "education_level": "upper secondary",
+        "parents_education": {
+          "parent_1": "master's degree",
+          "parent_2": "master's degree"
+        },
+        "marital_status": "single",
+        "children": 0,
+        "migration_status": "native-born American",
+        "religious_beliefs": "Islam",
+        "hobbies": [
+          "travel",
+          "reading novels",
+          "running",
+          "painting",
+          "cinema"
+        ],
+        "fav_subjects": [
+          "computer science",
+          "physics"
+        ],
+        "hat_subjects": [
+          "art",
+          "chemistry"
+        ],
+        "ocean": {
+          "openness": {
+            "score": 5,
+            "level": "low"
+          },
+          "conscientiousness": {
+            "score": 55,
+            "level": "moderate"
+          },
+          "extraversion": {
+            "score": 77,
+            "level": "high"
+          },
+          "agreeableness": {
+            "score": 84,
+            "level": "high"
+          },
+          "neuroticism": {
+            "score": 87,
+            "level": "high"
+          }
+        }
+      },
+      "scales": {
+        "maes": {
+          "items": {
+            "1": {
+              "rating": 4,
+              "why": "My favorite subject is computer science which uses math, so I feel quite confident with equations."
+            },
+            "2": {
+              "rating": 3,
+              "why": "Decimals are manageable but not a strong point compared to my other mathematical strengths."
+            },
+            "3": {
+              "rating": 3,
+              "why": "Geometry tasks are okay but I prefer computer science and physics over pure mathematics."
+            },
+            "4": {
+              "rating": 4,
+              "why": "Algebra is useful for my physics studies so I have moderate to high confidence in solving it."
+            },
+            "5": {
+              "rating": 3,
+              "why": "Trigonometry is challenging for me since I listed it as a subject I do not enjoy."
+            },
+            "6": {
+              "rating": 3,
+              "why": "Calculating area and volume is a basic task but not one I particularly enjoy doing."
+            },
+            "7": {
+              "rating": 2,
+              "why": "Sketching curves requires artistic skill which I dislike and my openness level is low."
+            },
+            "8": {
+              "rating": 3,
+              "why": "Working with fractions is basic but I prefer computer science over traditional math topics."
+            },
+            "9": {
+              "rating": 3,
+              "why": "Finding missing side lengths is standard but I prefer physics and computer science instead."
+            }
+          }
+        },
+        "amas": {
+          "items": {
+            "1": {
+              "rating": 3,
+              "why": "I feel moderate anxiety when using math book tables, though I prefer computer science over art or chemistry."
+            },
+            "2": {
+              "rating": 4,
+              "why": "Thinking about a math test causes quite a lot of anxiety, especially if I prefer physics or coding."
+            },
+            "3": {
+              "rating": 3,
+              "why": "Watching a teacher solve algebraic equations feels moderately stressful, but I am okay with it."
+            },
+            "4": {
+              "rating": 4,
+              "why": "Taking a math exam creates high anxiety for me, as I prefer computer science and physics."
+            },
+            "5": {
+              "rating": 3,
+              "why": "A difficult homework assignment due next class feels fairly stressful, but not the worst."
+            },
+            "6": {
+              "rating": 2,
+              "why": "Listening to a math lecture feels somewhat annoying, but I focus better on science topics."
+            },
+            "7": {
+              "rating": 2,
+              "why": "Hearing another student explain a formula is mostly okay, though I prefer explaining concepts myself."
+            },
+            "8": {
+              "rating": 4,
+              "why": "A pop quiz in math creates quite a lot of anxiety, as I find these situations very stressful."
+            },
+            "9": {
+              "rating": 3,
+              "why": "Starting a new math chapter feels moderately stressful, but I enjoy my favorite subjects more."
+            }
+          }
+        },
+        "mseaq": {
+          "items": {
+            "1": {
+              "rating": 4,
+              "why": "As a CS and physics student with high extraversion but low openness, I feel confident in math but worry about grades."
+            },
+            "2": {
+              "rating": 4,
+              "why": "I believe I can do math but my high neuroticism makes me anxious about performance in class situations."
+            },
+            "3": {
+              "rating": 3,
+              "why": "I am moderate on conscientiousness so learning math feels okay but not completely effortless or guaranteed."
+            },
+            "4": {
+              "rating": 3,
+              "why": "Future expectations are moderate due to my high neuroticism creating some worry about future mathematics courses."
+            },
+            "5": {
+              "rating": 4,
+              "why": "My background in physics and CS means I believe I can understand mathematical content easily."
+            },
+            "6": {
+              "rating": 3,
+              "why": "Getting an A feels challenging due to my high neuroticism and moderate conscientiousness levels."
+            },
+            "7": {
+              "rating": 4,
+              "why": "I feel capable of doing the math required in courses given my preferred subjects include physics and computer science."
+            },
+            "8": {
+              "rating": 4,
+              "why": "I worry about test performance because of my high neuroticism which makes me anxious about mathematics tests."
+            },
+            "9": {
+              "rating": 4,
+              "why": "Preparing for tests is tense for me due to my high neuroticism and anxiety about mathematics outcomes."
+            },
+            "10": {
+              "rating": 4,
+              "why": "Taking math tests makes me nervous as my high neuroticism causes considerable anxiety in testing situations."
+            },
+            "11": {
+              "rating": 4,
+              "why": "I worry about getting an A because my high neuroticism makes me anxious about achieving high grades."
+            },
+            "12": {
+              "rating": 4,
+              "why": "I worry about grades due to my high neuroticism and the pressure I feel around mathematics performance."
+            },
+            "13": {
+              "rating": 2,
+              "why": "I do not feel confident during tests due to my high neuroticism which creates anxiety in testing situations."
+            },
+            "14": {
+              "rating": 3,
+              "why": "I am neutral about test performance because my high neuroticism creates worry that balances my confidence."
+            },
+            "15": {
+              "rating": 3,
+              "why": "Doing math homework is moderately stressful due to my high neuroticism and moderate conscientiousness levels."
+            },
+            "16": {
+              "rating": 3,
+              "why": "Using math outside school is somewhat nervous because my high neuroticism creates anxiety in unfamiliar situations."
+            },
+            "17": {
+              "rating": 3,
+              "why": "I am neutral about using math outside school due to my mixed feelings about real world application."
+            },
+            "18": {
+              "rating": 3,
+              "why": "I worry about future career math use due to my high neuroticism and moderate confidence in applied skills."
+            },
+            "19": {
+              "rating": 3,
+              "why": "Understanding math can cause worry due to my high neuroticism and lack of comfort in less familiar topics."
+            },
+            "20": {
+              "rating": 3,
+              "why": "Learning well in math courses is moderately worried due to my high neuroticism and moderate conscientiousness."
+            },
+            "21": {
+              "rating": 2,
+              "why": "Listening to instructors is not particularly stressful for me though I have high neuroticism overall."
+            },
+            "22": {
+              "rating": 3,
+              "why": "I am neutral about future career math use due to my high neuroticism balancing my confidence in applied tasks."
+            },
+            "23": {
+              "rating": 3,
+              "why": "I worry I do not know enough math due to my high neuroticism creating anxiety about future performance."
+            },
+            "24": {
+              "rating": 2,
+              "why": "Giving incorrect answers is not my main fear though my high neuroticism creates some anxiety."
+            },
+            "25": {
+              "rating": 2,
+              "why": "I feel confident asking questions due to my high extraversion which helps in class social interactions."
+            },
+            "26": {
+              "rating": 2,
+              "why": "Asking questions is not nervous for me due to my high extraversion which helps with social situations."
+            },
+            "27": {
+              "rating": 4,
+              "why": "I believe I can complete assignments given my high extraversion and confidence in my preferred subjects."
+            },
+            "28": {
+              "rating": 3,
+              "why": "Completing every assignment is moderately worried due to my high neuroticism and moderate conscientiousness levels."
+            }
+          }
+        }
+      }
+    }
+  }
+}

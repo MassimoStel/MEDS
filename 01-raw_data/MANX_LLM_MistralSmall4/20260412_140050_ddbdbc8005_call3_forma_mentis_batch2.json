@@ -1,0 +1,392 @@
+{
+  "run_id": "ddbdbc8005",
+  "call_name": "call3_forma_mentis_batch2",
+  "task": "call3",
+  "mode": "human",
+  "persona": {
+    "gender": "man",
+    "sexual_orientation": "bisexual",
+    "age": 23,
+    "city_of_living": "Naples",
+    "employment_status": "employed full-time",
+    "education_level": "lower secondary",
+    "parents_education": {
+      "parent_1": "PhD",
+      "parent_2": "no formal education"
+    },
+    "marital_status": "married",
+    "children": 2,
+    "migration_status": "native-born Italian",
+    "religious_beliefs": "Atheist",
+    "hobbies": [
+      "baking",
+      "classical music"
+    ],
+    "fav_subjects": [
+      "philosophy",
+      "economics"
+    ],
+    "hat_subjects": [
+      "biology",
+      "physics"
+    ],
+    "ocean": {
+      "openness": {
+        "score": 99,
+        "level": "high"
+      },
+      "conscientiousness": {
+        "score": 34,
+        "level": "moderate"
+      },
+      "extraversion": {
+        "score": 42,
+        "level": "moderate"
+      },
+      "agreeableness": {
+        "score": 30,
+        "level": "low"
+      },
+      "neuroticism": {
+        "score": 68,
+        "level": "high"
+      }
+    }
+  },
+  "model": "mistral-small-latest",
+  "base_url": "https://api.mistral.ai",
+  "response_parsed": {
+    "task": "call3",
+    "run_id": "ddbdbc8005",
+    "mode": "human",
+    "persona": {
+      "gender": "man",
+      "sexual_orientation": "bisexual",
+      "age": 23,
+      "city_of_living": "Naples",
+      "employment_status": "employed full-time",
+      "education_level": "lower secondary",
+      "parents_education": {
+        "parent_1": "PhD",
+        "parent_2": "no formal education"
+      },
+      "marital_status": "married",
+      "children": 2,
+      "migration_status": "native-born Italian",
+      "religious_beliefs": "Atheist",
+      "hobbies": [
+        "baking",
+        "classical music"
+      ],
+      "fav_subjects": [
+        "philosophy",
+        "economics"
+      ],
+      "hat_subjects": [
+        "biology",
+        "physics"
+      ],
+      "ocean": {
+        "openness": {
+          "score": 99,
+          "level": "high"
+        },
+        "conscientiousness": {
+          "score": 34,
+          "level": "moderate"
+        },
+        "extraversion": {
+          "score": 42,
+          "level": "moderate"
+        },
+        "agreeableness": {
+          "score": 30,
+          "level": "low"
+        },
+        "neuroticism": {
+          "score": 68,
+          "level": "high"
+        }
+      }
+    },
+    "cue_words": [
+      "study",
+      "chemistry",
+      "scientist",
+      "homework",
+      "logic",
+      "numbers",
+      "teacher",
+      "failure",
+      "success",
+      "physics",
+      "exam",
+      "society",
+      "student",
+      "biology",
+      "art",
+      "experiment",
+      "lecture",
+      "mathematics",
+      "professor",
+      "variable",
+      "classroom",
+      "problem-solving",
+      "creativity",
+      "science",
+      "proof"
+    ],
+    "parsed": {
+      "mode": "human",
+      "forma_mentis": {
+        "study": {
+          "associations": [
+            "philosophy",
+            "economics"
+          ],
+          "valence": {
+            "study": 4,
+            "philosophy": 5,
+            "economics": 5
+          }
+        },
+        "chemistry": {
+          "associations": [
+            "experiment"
+          ],
+          "valence": {
+            "chemistry": 2,
+            "experiment": 3
+          }
+        },
+        "scientist": {
+          "associations": [
+            "logic",
+            "proof"
+          ],
+          "valence": {
+            "scientist": 3,
+            "logic": 4,
+            "proof": 4
+          }
+        },
+        "homework": {
+          "associations": [
+            "failure"
+          ],
+          "valence": {
+            "homework": 2,
+            "failure": 1
+          }
+        },
+        "logic": {
+          "associations": [
+            "philosophy",
+            "mathematics"
+          ],
+          "valence": {
+            "logic": 4,
+            "philosophy": 5,
+            "mathematics": 3
+          }
+        },
+        "numbers": {
+          "associations": [
+            "mathematics"
+          ],
+          "valence": {
+            "numbers": 3,
+            "mathematics": 3
+          }
+        },
+        "teacher": {
+          "associations": [
+            "classroom"
+          ],
+          "valence": {
+            "teacher": 3,
+            "classroom": 3
+          }
+        },
+        "failure": {
+          "associations": [
+            "homework"
+          ],
+          "valence": {
+            "failure": 1,
+            "homework": 2
+          }
+        },
+        "success": {
+          "associations": [
+            "science"
+          ],
+          "valence": {
+            "success": 5,
+            "science": 4
+          }
+        },
+        "physics": {
+          "associations": [
+            "exam"
+          ],
+          "valence": {
+            "physics": 1,
+            "exam": 2
+          }
+        },
+        "exam": {
+          "associations": [
+            "physics",
+            "failure"
+          ],
+          "valence": {
+            "exam": 2,
+            "physics": 1,
+            "failure": 1
+          }
+        },
+        "society": {
+          "associations": [
+            "economics"
+          ],
+          "valence": {
+            "society": 4,
+            "economics": 5
+          }
+        },
+        "student": {
+          "associations": [
+            "classroom",
+            "homework"
+          ],
+          "valence": {
+            "student": 3,
+            "classroom": 3,
+            "homework": 2
+          }
+        },
+        "biology": {
+          "associations": [
+            "experiment"
+          ],
+          "valence": {
+            "biology": 1,
+            "experiment": 3
+          }
+        },
+        "art": {
+          "associations": [
+            "creativity"
+          ],
+          "valence": {
+            "art": 4,
+            "creativity": 5
+          }
+        },
+        "experiment": {
+          "associations": [
+            "chemistry",
+            "biology"
+          ],
+          "valence": {
+            "experiment": 3,
+            "chemistry": 2,
+            "biology": 1
+          }
+        },
+        "lecture": {
+          "associations": [
+            "classroom"
+          ],
+          "valence": {
+            "lecture": 3,
+            "classroom": 3
+          }
+        },
+        "mathematics": {
+          "associations": [
+            "numbers",
+            "logic"
+          ],
+          "valence": {
+            "mathematics": 3,
+            "numbers": 3,
+            "logic": 4
+          }
+        },
+        "professor": {
+          "associations": [
+            "lecture"
+          ],
+          "valence": {
+            "professor": 3,
+            "lecture": 3
+          }
+        },
+        "variable": {
+          "associations": [
+            "mathematics"
+          ],
+          "valence": {
+            "variable": 3,
+            "mathematics": 3
+          }
+        },
+        "classroom": {
+          "associations": [
+            "teacher",
+            "lecture"
+          ],
+          "valence": {
+            "classroom": 3,
+            "teacher": 3,
+            "lecture": 3
+          }
+        },
+        "problem-solving": {
+          "associations": [
+            "logic",
+            "mathematics"
+          ],
+          "valence": {
+            "problem-solving": 4,
+            "logic": 4,
+            "mathematics": 3
+          }
+        },
+        "creativity": {
+          "associations": [
+            "art"
+          ],
+          "valence": {
+            "creativity": 5,
+            "art": 4
+          }
+        },
+        "science": {
+          "associations": [
+            "success",
+            "experiment"
+          ],
+          "valence": {
+            "science": 4,
+            "success": 5,
+            "experiment": 3
+          }
+        },
+        "proof": {
+          "associations": [
+            "logic",
+            "mathematics"
+          ],
+          "valence": {
+            "proof": 4,
+            "logic": 4,
+            "mathematics": 3
+          }
+        }
+      }
+    }
+  }
+}

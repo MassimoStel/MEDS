@@ -1,0 +1,474 @@
+{
+  "run_id": "5359536415",
+  "call_name": "call3_forma_mentis_batch1",
+  "task": "call3",
+  "mode": "human",
+  "persona": {
+    "gender": "man",
+    "sexual_orientation": "heterosexual",
+    "age": 30,
+    "city_of_living": "Naples",
+    "employment_status": "employed full-time",
+    "education_level": "master's degree",
+    "parents_education": {
+      "parent_1": "bachelor's degree",
+      "parent_2": "upper secondary"
+    },
+    "marital_status": "in a relationship",
+    "children": 0,
+    "migration_status": "native-born Italian",
+    "religious_beliefs": "Christianity",
+    "hobbies": [
+      "cinema",
+      "knitting",
+      "birdwatching",
+      "cooking"
+    ],
+    "fav_subjects": [
+      "physics",
+      "philosophy"
+    ],
+    "hat_subjects": [
+      "computer science",
+      "biology"
+    ],
+    "ocean": {
+      "openness": {
+        "score": 43,
+        "level": "moderate"
+      },
+      "conscientiousness": {
+        "score": 74,
+        "level": "high"
+      },
+      "extraversion": {
+        "score": 41,
+        "level": "moderate"
+      },
+      "agreeableness": {
+        "score": 78,
+        "level": "high"
+      },
+      "neuroticism": {
+        "score": 11,
+        "level": "low"
+      }
+    }
+  },
+  "model": "qwen/qwen3.5-9B",
+  "base_url": "http://127.0.0.1:8000",
+  "response_parsed": {
+    "task": "call3",
+    "run_id": "5359536415",
+    "mode": "human",
+    "persona": {
+      "gender": "man",
+      "sexual_orientation": "heterosexual",
+      "age": 30,
+      "city_of_living": "Naples",
+      "employment_status": "employed full-time",
+      "education_level": "master's degree",
+      "parents_education": {
+        "parent_1": "bachelor's degree",
+        "parent_2": "upper secondary"
+      },
+      "marital_status": "in a relationship",
+      "children": 0,
+      "migration_status": "native-born Italian",
+      "religious_beliefs": "Christianity",
+      "hobbies": [
+        "cinema",
+        "knitting",
+        "birdwatching",
+        "cooking"
+      ],
+      "fav_subjects": [
+        "physics",
+        "philosophy"
+      ],
+      "hat_subjects": [
+        "computer science",
+        "biology"
+      ],
+      "ocean": {
+        "openness": {
+          "score": 43,
+          "level": "moderate"
+        },
+        "conscientiousness": {
+          "score": 74,
+          "level": "high"
+        },
+        "extraversion": {
+          "score": 41,
+          "level": "moderate"
+        },
+        "agreeableness": {
+          "score": 78,
+          "level": "high"
+        },
+        "neuroticism": {
+          "score": 11,
+          "level": "low"
+        }
+      }
+    },
+    "cue_words": [
+      "LLM",
+      "success",
+      "mathematics",
+      "computation",
+      "history",
+      "lecture",
+      "exam",
+      "scientist",
+      "data",
+      "logic",
+      "failure",
+      "art",
+      "knowledge",
+      "chemistry",
+      "teacher",
+      "music",
+      "work",
+      "science",
+      "proof",
+      "career",
+      "creativity",
+      "grade",
+      "literature",
+      "student",
+      "physics"
+    ],
+    "parsed": {
+      "mode": "human",
+      "forma_mentis": {
+        "LLM": {
+          "associations": [
+            "success",
+            "logic",
+            "science"
+          ],
+          "valence": {
+            "LLM": 3,
+            "success": 4,
+            "logic": 4,
+            "science": 4
+          }
+        },
+        "success": {
+          "associations": [
+            "career",
+            "work",
+            "knowledge"
+          ],
+          "valence": {
+            "success": 4,
+            "career": 3,
+            "work": 3,
+            "knowledge": 4
+          }
+        },
+        "mathematics": {
+          "associations": [
+            "logic",
+            "proof",
+            "science"
+          ],
+          "valence": {
+            "mathematics": 3,
+            "logic": 4,
+            "proof": 3,
+            "science": 4
+          }
+        },
+        "computation": {
+          "associations": [
+            "logic",
+            "LLM",
+            "data"
+          ],
+          "valence": {
+            "computation": 2,
+            "logic": 4,
+            "LLM": 3,
+            "data": 3
+          }
+        },
+        "history": {
+          "associations": [
+            "knowledge",
+            "lecture",
+            "science"
+          ],
+          "valence": {
+            "history": 3,
+            "knowledge": 4,
+            "lecture": 2,
+            "science": 4
+          }
+        },
+        "lecture": {
+          "associations": [
+            "teacher",
+            "student",
+            "work"
+          ],
+          "valence": {
+            "lecture": 2,
+            "teacher": 4,
+            "student": 3,
+            "work": 3
+          }
+        },
+        "exam": {
+          "associations": [
+            "failure",
+            "grade",
+            "student"
+          ],
+          "valence": {
+            "exam": 2,
+            "failure": 1,
+            "grade": 2,
+            "student": 3
+          }
+        },
+        "scientist": {
+          "associations": [
+            "science",
+            "work",
+            "success"
+          ],
+          "valence": {
+            "scientist": 4,
+            "science": 4,
+            "work": 3,
+            "success": 4
+          }
+        },
+        "data": {
+          "associations": [
+            "LLM",
+            "computation",
+            "knowledge"
+          ],
+          "valence": {
+            "data": 3,
+            "LLM": 3,
+            "computation": 2,
+            "knowledge": 4
+          }
+        },
+        "logic": {
+          "associations": [
+            "mathematics",
+            "proof",
+            "science"
+          ],
+          "valence": {
+            "logic": 4,
+            "mathematics": 3,
+            "proof": 3,
+            "science": 4
+          }
+        },
+        "failure": {
+          "associations": [
+            "exam",
+            "grade",
+            "student"
+          ],
+          "valence": {
+            "failure": 1,
+            "exam": 2,
+            "grade": 2,
+            "student": 3
+          }
+        },
+        "art": {
+          "associations": [
+            "creativity",
+            "knowledge",
+            "music"
+          ],
+          "valence": {
+            "art": 4,
+            "creativity": 4,
+            "knowledge": 4,
+            "music": 4
+          }
+        },
+        "knowledge": {
+          "associations": [
+            "science",
+            "mathematics",
+            "art"
+          ],
+          "valence": {
+            "knowledge": 4,
+            "science": 4,
+            "mathematics": 3,
+            "art": 4
+          }
+        },
+        "chemistry": {
+          "associations": [
+            "science",
+            "laboratory",
+            "work"
+          ],
+          "valence": {
+            "chemistry": 3,
+            "science": 4,
+            "laboratory": 2,
+            "work": 3
+          }
+        },
+        "teacher": {
+          "associations": [
+            "student",
+            "lecture",
+            "knowledge"
+          ],
+          "valence": {
+            "teacher": 4,
+            "student": 3,
+            "lecture": 2,
+            "knowledge": 4
+          }
+        },
+        "music": {
+          "associations": [
+            "art",
+            "creativity",
+            "hobbies"
+          ],
+          "valence": {
+            "music": 4,
+            "art": 4,
+            "creativity": 4,
+            "hobbies": 3
+          }
+        },
+        "work": {
+          "associations": [
+            "career",
+            "success",
+            "failure"
+          ],
+          "valence": {
+            "work": 3,
+            "career": 3,
+            "success": 4,
+            "failure": 1
+          }
+        },
+        "science": {
+          "associations": [
+            "physics",
+            "chemistry",
+            "mathematics"
+          ],
+          "valence": {
+            "science": 4,
+            "physics": 4,
+            "chemistry": 3,
+            "mathematics": 3
+          }
+        },
+        "proof": {
+          "associations": [
+            "mathematics",
+            "logic",
+            "science"
+          ],
+          "valence": {
+            "proof": 3,
+            "mathematics": 3,
+            "logic": 4,
+            "science": 4
+          }
+        },
+        "career": {
+          "associations": [
+            "work",
+            "success",
+            "science"
+          ],
+          "valence": {
+            "career": 3,
+            "work": 3,
+            "success": 4,
+            "science": 4
+          }
+        },
+        "creativity": {
+          "associations": [
+            "art",
+            "music",
+            "knowledge"
+          ],
+          "valence": {
+            "creativity": 4,
+            "art": 4,
+            "music": 4,
+            "knowledge": 4
+          }
+        },
+        "grade": {
+          "associations": [
+            "exam",
+            "student",
+            "success"
+          ],
+          "valence": {
+            "grade": 2,
+            "exam": 2,
+            "student": 3,
+            "success": 4
+          }
+        },
+        "literature": {
+          "associations": [
+            "knowledge",
+            "art",
+            "student"
+          ],
+          "valence": {
+            "literature": 3,
+            "knowledge": 4,
+            "art": 4,
+            "student": 3
+          }
+        },
+        "student": {
+          "associations": [
+            "teacher",
+            "exam",
+            "knowledge"
+          ],
+          "valence": {
+            "student": 3,
+            "teacher": 4,
+            "exam": 2,
+            "knowledge": 4
+          }
+        },
+        "physics": {
+          "associations": [
+            "science",
+            "mathematics",
+            "work"
+          ],
+          "valence": {
+            "physics": 4,
+            "science": 4,
+            "mathematics": 3,
+            "work": 3
+          }
+        }
+      }
+    }
+  }
+}

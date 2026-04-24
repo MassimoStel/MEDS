@@ -1,0 +1,369 @@
+{
+  "run_id": "adfd01999b",
+  "call_name": "call2_scales",
+  "task": "call2",
+  "mode": "human",
+  "persona": {
+    "gender": "woman",
+    "sexual_orientation": "heterosexual",
+    "age": 30,
+    "city_of_living": "Los Angeles",
+    "employment_status": "employed full-time",
+    "education_level": "bachelor's degree",
+    "parents_education": {
+      "parent_1": "master's degree",
+      "parent_2": "primary school"
+    },
+    "marital_status": "in a relationship",
+    "children": 1,
+    "migration_status": "immigrant",
+    "religious_beliefs": "Christianity",
+    "hobbies": [
+      "baking",
+      "reading novels"
+    ],
+    "fav_subjects": [
+      "chemistry",
+      "economics"
+    ],
+    "hat_subjects": [
+      "history",
+      "maths"
+    ],
+    "ocean": {
+      "openness": {
+        "score": 77,
+        "level": "high"
+      },
+      "conscientiousness": {
+        "score": 99,
+        "level": "high"
+      },
+      "extraversion": {
+        "score": 16,
+        "level": "low"
+      },
+      "agreeableness": {
+        "score": 62,
+        "level": "moderate"
+      },
+      "neuroticism": {
+        "score": 84,
+        "level": "high"
+      }
+    }
+  },
+  "model": "qwen/qwen3.5-9B",
+  "base_url": "http://127.0.0.1:8000",
+  "response_parsed": {
+    "task": "call2",
+    "run_id": "adfd01999b",
+    "mode": "human",
+    "persona": {
+      "gender": "woman",
+      "sexual_orientation": "heterosexual",
+      "age": 30,
+      "city_of_living": "Los Angeles",
+      "employment_status": "employed full-time",
+      "education_level": "bachelor's degree",
+      "parents_education": {
+        "parent_1": "master's degree",
+        "parent_2": "primary school"
+      },
+      "marital_status": "in a relationship",
+      "children": 1,
+      "migration_status": "immigrant",
+      "religious_beliefs": "Christianity",
+      "hobbies": [
+        "baking",
+        "reading novels"
+      ],
+      "fav_subjects": [
+        "chemistry",
+        "economics"
+      ],
+      "hat_subjects": [
+        "history",
+        "maths"
+      ],
+      "ocean": {
+        "openness": {
+          "score": 77,
+          "level": "high"
+        },
+        "conscientiousness": {
+          "score": 99,
+          "level": "high"
+        },
+        "extraversion": {
+          "score": 16,
+          "level": "low"
+        },
+        "agreeableness": {
+          "score": 62,
+          "level": "moderate"
+        },
+        "neuroticism": {
+          "score": 84,
+          "level": "high"
+        }
+      }
+    },
+    "raw_outputs": {
+      "call2_maes": "{\n  \"mode\": \"human\",\n  \"scale_code\": \"MAES\",\n  \"items\": {\n    \"1\": {\n      \"rating\": 3,\n      \"why\": \"My favorite subject is chemistry which involves some math, but I find algebra challenging overall.\"\n    },\n    \"2\": {\n      \"rating\": 4,\n      \"why\": \"I use decimals often in my work and baking so I feel quite confident with them.\"\n    },\n    \"3\": {\n      \"rating\": 3,\n      \"why\": \"Geometry concepts are okay for me but I prefer chemistry and economics over pure math topics.\"\n    },\n    \"4\": {\n      \"rating\": 2,\n      \"why\": \"Algebra is one of the subjects I dislike so I am not very confident solving these problems.\"\n    },\n    \"5\": {\n      \"rating\": 2,\n      \"why\": \"Trigonometry is part of the math I dislike so I feel only slightly confident with it.\"\n    },\n    \"6\": {\n      \"rating\": 4,\n      \"why\": \"Calculating area and volume is practical for my baking hobby so I feel quite confident.\"\n    },\n    \"7\": {\n      \"rating\": 3,\n      \"why\": \"Sketching curves requires calculus which I do not like so my confidence is moderate only.\"\n    },\n    \"8\": {\n      \"rating\": 4,\n      \"why\": \"Working with fractions is common in baking so I feel quite confident handling those calculations.\"\n    },\n    \"9\": {\n      \"rating\": 3,\n      \"why\": \"Finding missing side lengths is geometry which I find okay but not as engaging as chemistry.\"\n    }\n  }\n}",
+      "call2_amas": "{\n  \"mode\": \"human\",\n  \"scale_code\": \"AMAS\",\n  \"items\": {\n    \"1\": {\"rating\": 2, \"why\": \"I feel a bit nervous about looking up tables but my high conscientiousness helps me stay focused.\"},\n    \"2\": {\"rating\": 3, \"why\": \"An upcoming test triggers my high neuroticism but I prepare well due to being organized.\"},\n    \"3\": {\"rating\": 3, \"why\": \"Watching algebra equations makes me feel moderate anxiety even though I understand the concepts.\"},\n    \"4\": {\"rating\": 4, \"why\": \"Formal examinations cause quite a lot of anxiety due to my high neuroticism and fear of failure.\"},\n    \"5\": {\"rating\": 3, \"why\": \"Difficult homework due soon creates moderate stress but I am generally very conscientious about completing tasks.\"},\n    \"6\": {\"rating\": 2, \"why\": \"Lectures are less anxiety inducing than tests because I can review the material at my own pace.\"},\n    \"7\": {\"rating\": 2, \"why\": \"Listening to others explain formulas is manageable since I am an introvert but open to learning.\"},\n    \"8\": {\"rating\": 3, \"why\": \"Pop quizzes create moderate anxiety because I prefer to know exactly when I am being evaluated.\"},\n    \"9\": {\"rating\": 2, \"why\": \"Starting a new chapter is only slightly worrying as I enjoy reading and learning new things.\"}\n  }\n}",
+      "call2_mseaq": "{\n  \"mode\": \"human\",\n  \"scale_code\": \"MSEAQ\",\n  \"items\": {\n    \"1\": {\"rating\": 3, \"why\": \"Persona likes chemistry but hates maths. Self-efficacy is low but not non-existent. Neutral agreement fits this conflict.\"},\n    \"2\": {\"rating\": 3, \"why\": \"Consistent with item 1. Believes she can do it but has anxiety due to low extraversion and high neuroticism.\"},\n    \"3\": {\"rating\": 3, \"why\": \"Learning math is challenging given her history aversion. She is conscientious but the subject is disliked.\"},\n    \"4\": {\"rating\": 3, \"why\": \"Future expectations are neutral. High neuroticism makes her worry about future exams despite high conscientiousness.\"},\n    \"5\": {\"rating\": 3, \"why\": \"Understanding content is difficult due to math aversion, though her chemistry background helps slightly.\"},\n    \"6\": {\"rating\": 3, \"why\": \"Getting an A is stressful for her. High neuroticism and math anxiety prevent strong agreement here.\"},\n    \"7\": {\"rating\": 3, \"why\": \"Doing math in a course feels neutral. She dislikes math but is capable due to her general intelligence.\"},\n    \"8\": {\"rating\": 4, \"why\": \"Worrying about test performance is moderate to high due to her high neuroticism and math aversion.\"},\n    \"9\": {\"rating\": 4, \"why\": \"Preparing for tests causes tension because of her high anxiety levels and dislike of mathematics.\"},\n    \"10\": {\"rating\": 4, \"why\": \"Taking tests makes her nervous. Her neuroticism score of 84 strongly influences her test-taking anxiety.\"},\n    \"11\": {\"rating\": 4, \"why\": \"Worrying about getting an A is high. She is conscientious but fears failure due to math anxiety.\"},\n    \"12\": {\"rating\": 4, \"why\": \"Worrying about good grades is high. High neuroticism drives concern about academic performance outcomes.\"},\n    \"13\": {\"rating\": 2, \"why\": \"Feeling confident during tests is low. Her high neuroticism and math hatred reduce test confidence.\"},\n    \"14\": {\"rating\": 2, \"why\": \"Believing she can do well is low. Her anxiety and dislike of math make her doubt her test performance.\"},\n    \"15\": {\"rating\": 4, \"why\": \"Homework is stressful. Her high neuroticism and dislike of maths make assignments feel burdensome.\"},\n    \"16\": {\"rating\": 4, \"why\": \"Using math outside school causes nervousness. She is an immigrant and likely feels pressure to succeed.\"},\n    \"17\": {\"rating\": 2, \"why\": \"Confidence using math outside school is low. High anxiety prevents her from feeling secure in practical applications.\"},\n    \"18\": {\"rating\": 4, \"why\": \"Worrying about future career use is high. She fears she won't be able to apply her skills.\"},\n    \"19\": {\"rating\": 4, \"why\": \"Worrying about understanding is high. Her hatred of math subjects makes comprehension feel difficult.\"},\n    \"20\": {\"rating\": 4, \"why\": \"Worrying about learning well is high. Her anxiety and dislike of math block her confidence in learning.\"},\n    \"21\": {\"rating\": 4, \"why\": \"Listening to instructors is stressful. High neuroticism makes classroom attention a source of anxiety.\"},\n    \"22\": {\"rating\": 3, \"why\": \"Believing she can use math is neutral. Her chemistry background helps but math anxiety holds her back.\"},\n    \"23\": {\"rating\": 4, \"why\": \"Worrying about knowing enough is high. Her math aversion makes her doubt her future course preparation.\"},\n    \"24\": {\"rating\": 4, \"why\": \"Fear of incorrect answers is high. High neuroticism makes mistakes feel catastrophic during class.\"},\n    \"25\": {\"rating\": 2, \"why\": \"Confidence asking questions is low. Introversion and anxiety make participation in class difficult for her.\"},\n    \"26\": {\"rating\": 4, \"why\": \"Getting nervous asking questions is high. Her low extraversion and high neuroticism clash in class settings.\"},\n    \"27\": {\"rating\": 3, \"why\": \"Completing assignments is neutral. She is conscientious but the subject matter makes it challenging.\"},\n    \"28\": {\"rating\": 4, \"why\": \"Worrying about not completing assignments is high. Anxiety makes her fear she will fail to finish work.\"}\n  }\n}"
+    },
+    "parsed": {
+      "mode": "human",
+      "persona": {
+        "gender": "woman",
+        "sexual_orientation": "heterosexual",
+        "age": 30,
+        "city_of_living": "Los Angeles",
+        "employment_status": "employed full-time",
+        "education_level": "bachelor's degree",
+        "parents_education": {
+          "parent_1": "master's degree",
+          "parent_2": "primary school"
+        },
+        "marital_status": "in a relationship",
+        "children": 1,
+        "migration_status": "immigrant",
+        "religious_beliefs": "Christianity",
+        "hobbies": [
+          "baking",
+          "reading novels"
+        ],
+        "fav_subjects": [
+          "chemistry",
+          "economics"
+        ],
+        "hat_subjects": [
+          "history",
+          "maths"
+        ],
+        "ocean": {
+          "openness": {
+            "score": 77,
+            "level": "high"
+          },
+          "conscientiousness": {
+            "score": 99,
+            "level": "high"
+          },
+          "extraversion": {
+            "score": 16,
+            "level": "low"
+          },
+          "agreeableness": {
+            "score": 62,
+            "level": "moderate"
+          },
+          "neuroticism": {
+            "score": 84,
+            "level": "high"
+          }
+        }
+      },
+      "scales": {
+        "maes": {
+          "items": {
+            "1": {
+              "rating": 3,
+              "why": "My favorite subject is chemistry which involves some math, but I find algebra challenging overall."
+            },
+            "2": {
+              "rating": 4,
+              "why": "I use decimals often in my work and baking so I feel quite confident with them."
+            },
+            "3": {
+              "rating": 3,
+              "why": "Geometry concepts are okay for me but I prefer chemistry and economics over pure math topics."
+            },
+            "4": {
+              "rating": 2,
+              "why": "Algebra is one of the subjects I dislike so I am not very confident solving these problems."
+            },
+            "5": {
+              "rating": 2,
+              "why": "Trigonometry is part of the math I dislike so I feel only slightly confident with it."
+            },
+            "6": {
+              "rating": 4,
+              "why": "Calculating area and volume is practical for my baking hobby so I feel quite confident."
+            },
+            "7": {
+              "rating": 3,
+              "why": "Sketching curves requires calculus which I do not like so my confidence is moderate only."
+            },
+            "8": {
+              "rating": 4,
+              "why": "Working with fractions is common in baking so I feel quite confident handling those calculations."
+            },
+            "9": {
+              "rating": 3,
+              "why": "Finding missing side lengths is geometry which I find okay but not as engaging as chemistry."
+            }
+          }
+        },
+        "amas": {
+          "items": {
+            "1": {
+              "rating": 2,
+              "why": "I feel a bit nervous about looking up tables but my high conscientiousness helps me stay focused."
+            },
+            "2": {
+              "rating": 3,
+              "why": "An upcoming test triggers my high neuroticism but I prepare well due to being organized."
+            },
+            "3": {
+              "rating": 3,
+              "why": "Watching algebra equations makes me feel moderate anxiety even though I understand the concepts."
+            },
+            "4": {
+              "rating": 4,
+              "why": "Formal examinations cause quite a lot of anxiety due to my high neuroticism and fear of failure."
+            },
+            "5": {
+              "rating": 3,
+              "why": "Difficult homework due soon creates moderate stress but I am generally very conscientious about completing tasks."
+            },
+            "6": {
+              "rating": 2,
+              "why": "Lectures are less anxiety inducing than tests because I can review the material at my own pace."
+            },
+            "7": {
+              "rating": 2,
+              "why": "Listening to others explain formulas is manageable since I am an introvert but open to learning."
+            },
+            "8": {
+              "rating": 3,
+              "why": "Pop quizzes create moderate anxiety because I prefer to know exactly when I am being evaluated."
+            },
+            "9": {
+              "rating": 2,
+              "why": "Starting a new chapter is only slightly worrying as I enjoy reading and learning new things."
+            }
+          }
+        },
+        "mseaq": {
+          "items": {
+            "1": {
+              "rating": 3,
+              "why": "Persona likes chemistry but hates maths. Self-efficacy is low but not non-existent. Neutral agreement fits this conflict."
+            },
+            "2": {
+              "rating": 3,
+              "why": "Consistent with item 1. Believes she can do it but has anxiety due to low extraversion and high neuroticism."
+            },
+            "3": {
+              "rating": 3,
+              "why": "Learning math is challenging given her history aversion. She is conscientious but the subject is disliked."
+            },
+            "4": {
+              "rating": 3,
+              "why": "Future expectations are neutral. High neuroticism makes her worry about future exams despite high conscientiousness."
+            },
+            "5": {
+              "rating": 3,
+              "why": "Understanding content is difficult due to math aversion, though her chemistry background helps slightly."
+            },
+            "6": {
+              "rating": 3,
+              "why": "Getting an A is stressful for her. High neuroticism and math anxiety prevent strong agreement here."
+            },
+            "7": {
+              "rating": 3,
+              "why": "Doing math in a course feels neutral. She dislikes math but is capable due to her general intelligence."
+            },
+            "8": {
+              "rating": 4,
+              "why": "Worrying about test performance is moderate to high due to her high neuroticism and math aversion."
+            },
+            "9": {
+              "rating": 4,
+              "why": "Preparing for tests causes tension because of her high anxiety levels and dislike of mathematics."
+            },
+            "10": {
+              "rating": 4,
+              "why": "Taking tests makes her nervous. Her neuroticism score of 84 strongly influences her test-taking anxiety."
+            },
+            "11": {
+              "rating": 4,
+              "why": "Worrying about getting an A is high. She is conscientious but fears failure due to math anxiety."
+            },
+            "12": {
+              "rating": 4,
+              "why": "Worrying about good grades is high. High neuroticism drives concern about academic performance outcomes."
+            },
+            "13": {
+              "rating": 2,
+              "why": "Feeling confident during tests is low. Her high neuroticism and math hatred reduce test confidence."
+            },
+            "14": {
+              "rating": 2,
+              "why": "Believing she can do well is low. Her anxiety and dislike of math make her doubt her test performance."
+            },
+            "15": {
+              "rating": 4,
+              "why": "Homework is stressful. Her high neuroticism and dislike of maths make assignments feel burdensome."
+            },
+            "16": {
+              "rating": 4,
+              "why": "Using math outside school causes nervousness. She is an immigrant and likely feels pressure to succeed."
+            },
+            "17": {
+              "rating": 2,
+              "why": "Confidence using math outside school is low. High anxiety prevents her from feeling secure in practical applications."
+            },
+            "18": {
+              "rating": 4,
+              "why": "Worrying about future career use is high. She fears she won't be able to apply her skills."
+            },
+            "19": {
+              "rating": 4,
+              "why": "Worrying about understanding is high. Her hatred of math subjects makes comprehension feel difficult."
+            },
+            "20": {
+              "rating": 4,
+              "why": "Worrying about learning well is high. Her anxiety and dislike of math block her confidence in learning."
+            },
+            "21": {
+              "rating": 4,
+              "why": "Listening to instructors is stressful. High neuroticism makes classroom attention a source of anxiety."
+            },
+            "22": {
+              "rating": 3,
+              "why": "Believing she can use math is neutral. Her chemistry background helps but math anxiety holds her back."
+            },
+            "23": {
+              "rating": 4,
+              "why": "Worrying about knowing enough is high. Her math aversion makes her doubt her future course preparation."
+            },
+            "24": {
+              "rating": 4,
+              "why": "Fear of incorrect answers is high. High neuroticism makes mistakes feel catastrophic during class."
+            },
+            "25": {
+              "rating": 2,
+              "why": "Confidence asking questions is low. Introversion and anxiety make participation in class difficult for her."
+            },
+            "26": {
+              "rating": 4,
+              "why": "Getting nervous asking questions is high. Her low extraversion and high neuroticism clash in class settings."
+            },
+            "27": {
+              "rating": 3,
+              "why": "Completing assignments is neutral. She is conscientious but the subject matter makes it challenging."
+            },
+            "28": {
+              "rating": 4,
+              "why": "Worrying about not completing assignments is high. Anxiety makes her fear she will fail to finish work."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "run_id": "5e2cb853dc",
+  "call_name": "call2_scales",
+  "task": "call2",
+  "mode": "human",
+  "persona": {
+    "gender": "woman",
+    "sexual_orientation": "heterosexual",
+    "age": 40,
+    "city_of_living": "New York",
+    "employment_status": "employed full-time",
+    "education_level": "bachelor's degree",
+    "parents_education": {
+      "parent_1": "lower secondary",
+      "parent_2": "bachelor's degree"
+    },
+    "marital_status": "married",
+    "children": 1,
+    "migration_status": "native-born American",
+    "religious_beliefs": "Hinduism",
+    "hobbies": [
+      "cinema",
+      "birdwatching",
+      "gardening"
+    ],
+    "fav_subjects": [
+      "economics",
+      "art"
+    ],
+    "hat_subjects": [
+      "physics",
+      "maths"
+    ],
+    "ocean": {
+      "openness": {
+        "score": 63,
+        "level": "moderate"
+      },
+      "conscientiousness": {
+        "score": 4,
+        "level": "low"
+      },
+      "extraversion": {
+        "score": 48,
+        "level": "moderate"
+      },
+      "agreeableness": {
+        "score": 3,
+        "level": "low"
+      },
+      "neuroticism": {
+        "score": 71,
+        "level": "high"
+      }
+    }
+  },
+  "model": "qwen/qwen3.5-9B",
+  "base_url": "http://127.0.0.1:8000",
+  "response_parsed": {
+    "task": "call2",
+    "run_id": "5e2cb853dc",
+    "mode": "human",
+    "persona": {
+      "gender": "woman",
+      "sexual_orientation": "heterosexual",
+      "age": 40,
+      "city_of_living": "New York",
+      "employment_status": "employed full-time",
+      "education_level": "bachelor's degree",
+      "parents_education": {
+        "parent_1": "lower secondary",
+        "parent_2": "bachelor's degree"
+      },
+      "marital_status": "married",
+      "children": 1,
+      "migration_status": "native-born American",
+      "religious_beliefs": "Hinduism",
+      "hobbies": [
+        "cinema",
+        "birdwatching",
+        "gardening"
+      ],
+      "fav_subjects": [
+        "economics",
+        "art"
+      ],
+      "hat_subjects": [
+        "physics",
+        "maths"
+      ],
+      "ocean": {
+        "openness": {
+          "score": 63,
+          "level": "moderate"
+        },
+        "conscientiousness": {
+          "score": 4,
+          "level": "low"
+        },
+        "extraversion": {
+          "score": 48,
+          "level": "moderate"
+        },
+        "agreeableness": {
+          "score": 3,
+          "level": "low"
+        },
+        "neuroticism": {
+          "score": 71,
+          "level": "high"
+        }
+      }
+    },
+    "raw_outputs": {
+      "call2_maes": "{\n  \"mode\": \"human\",\n  \"scale_code\": \"MAES\",\n  \"items\": {\n    \"1\": {\"rating\": 2, \"why\": \"Hates physics and maths, so confidence is very low for solving equations.\"},\n    \"2\": {\"rating\": 2, \"why\": \"Avoids math problems due to past dislike and low conscientiousness.\"},\n    \"3\": {\"rating\": 2, \"why\": \"Geometry requires logic which she dislikes and feels unconfident about.\"},\n    \"4\": {\"rating\": 2, \"why\": \"Algebra is part of maths she hates and finds difficult to grasp.\"},\n    \"5\": {\"rating\": 1, \"why\": \"Trigonometry is very advanced maths and she is not confident at all.\"},\n    \"6\": {\"rating\": 2, \"why\": \"Calculating area and volume involves maths she has no interest in.\"},\n    \"7\": {\"rating\": 1, \"why\": \"Sketching curves requires strong visual maths skills she lacks confidence in.\"},\n    \"8\": {\"rating\": 2, \"why\": \"Working with fractions is basic maths she dislikes and struggles with.\"},\n    \"9\": {\"rating\": 1, \"why\": \"Finding missing side lengths is geometry which she finds very difficult.\"}\n  }\n}",
+      "call2_amas": "{\n  \"mode\": \"human\",\n  \"scale_code\": \"AMAS\",\n  \"items\": {\n    \"1\": {\n      \"rating\": 3,\n      \"why\": \"Moderate anxiety about using reference tables feels tedious but manageable for someone with moderate openness.\"\n    },\n    \"2\": {\n      \"rating\": 4,\n      \"why\": \"Thinking about the test a day before causes significant worry due to high neuroticism and low conscientiousness.\"\n    },\n    \"3\": {\n      \"rating\": 3,\n      \"why\": \"Watching algebraic equations on a blackboard triggers moderate stress given a dislike for physics and maths.\"\n    },\n    \"4\": {\n      \"rating\": 4,\n      \"why\": \"Taking a math exam induces quite a lot of anxiety because of high neuroticism and dislike for the subject.\"\n    },\n    \"5\": {\n      \"rating\": 3,\n      \"why\": \"Difficult homework due the next class causes moderate anxiety but is tolerable compared to exams.\"\n    },\n    \"6\": {\n      \"rating\": 2,\n      \"why\": \"Listening to a lecture is less stressful than being tested but still uncomfortable due to low interest.\"\n    },\n    \"7\": {\n      \"rating\": 2,\n      \"why\": \"Hearing a student explain a formula is slightly better than lectures but still feels a bit anxiety-inducing.\"\n    },\n    \"8\": {\n      \"rating\": 4,\n      \"why\": \"Pop quizzes create quite a lot of anxiety due to sudden pressure combined with high neuroticism levels.\"\n    },\n    \"9\": {\n      \"rating\": 3,\n      \"why\": \"Starting a new chapter feels moderately stressful as it implies upcoming work in a disliked subject area.\"\n    }\n  }\n}",
+      "call2_mseaq": "{\n  \"mode\": \"human\",\n  \"scale_code\": \"MSEAQ\",\n  \"items\": {\n    \"1\": {\"rating\": 2, \"why\": \"She has a bachelor's degree and likes economics, but dislikes math and physics, so she doesn't feel naturally good at math.\"},\n    \"2\": {\"rating\": 2, \"why\": \"Her preference for economics and art over math suggests she does not view herself as a math-oriented person type.\"},\n    \"3\": {\"rating\": 3, \"why\": \"She has moderate neuroticism and low conscientiousness, making her unsure about learning well in math despite some education.\"},\n    \"4\": {\"rating\": 2, \"why\": \"Given her dislike of math subjects, she doubts she could do well in future mathematics courses compared to other subjects.\"},\n    \"5\": {\"rating\": 2, \"why\": \"She dislikes math and physics, so understanding math content is not something she believes she can easily achieve.\"},\n    \"6\": {\"rating\": 2, \"why\": \"With low conscientiousness and a dislike for math, getting an A in math is not something she strongly believes in.\"},\n    \"7\": {\"rating\": 2, \"why\": \"Her dislike of math subjects means she doubts her ability to do the mathematics required in a math course.\"},\n    \"8\": {\"rating\": 4, \"why\": \"High neuroticism makes her very worried about not doing well on tests, especially in subjects she dislikes.\"},\n    \"9\": {\"rating\": 4, \"why\": \"High neuroticism causes significant tension when preparing for tests in math, a subject she finds unenjoyable.\"},\n    \"10\": {\"rating\": 4, \"why\": \"Taking math tests is stressful due to her high neuroticism and negative feelings toward math and physics.\"},\n    \"11\": {\"rating\": 4, \"why\": \"Her high neuroticism leads to intense worry about not getting an A in mathematics, a subject she dislikes.\"},\n    \"12\": {\"rating\": 4, \"why\": \"She is anxious about grades generally due to high neuroticism, especially in math which she dislikes.\"},\n    \"13\": {\"rating\": 2, \"why\": \"Low self-efficacy in math means she does not feel confident taking math tests despite her moderate personality.\"},\n    \"14\": {\"rating\": 2, \"why\": \"She dislikes math and physics, so she does not strongly believe she can do well on math tests.\"},\n    \"15\": {\"rating\": 4, \"why\": \"High neuroticism makes working on math homework stressful, as math is a subject she actively dislikes.\"},\n    \"16\": {\"rating\": 4, \"why\": \"She gets nervous using math outside school due to high anxiety and dislike for math subjects.\"},\n    \"17\": {\"rating\": 2, \"why\": \"Confidence in using math outside school is low because she dislikes math and prefers art and economics.\"},\n    \"18\": {\"rating\": 4, \"why\": \"She worries significantly about future career math needs due to high neuroticism and dislike of math.\"},\n    \"19\": {\"rating\": 4, \"why\": \"Understanding math is difficult for her due to high neuroticism and her stated dislike of math and physics.\"},\n    \"20\": {\"rating\": 4, \"why\": \"She worries she cannot learn math well due to high neuroticism and her preference for art over math.\"},\n    \"21\": {\"rating\": 4, \"why\": \"Listening to math instructors is stressful for her because of high neuroticism and dislike for math.\"},\n    \"22\": {\"rating\": 2, \"why\": \"She doubts her ability to use math in her career due to low self-efficacy and dislike of the subject.\"},\n    \"23\": {\"rating\": 4, \"why\": \"She worries she doesn't know enough math for future courses due to high neuroticism and dislike of math.\"},\n    \"24\": {\"rating\": 4, \"why\": \"Fear of giving incorrect answers is high due to her high neuroticism and dislike of math.\"},\n    \"25\": {\"rating\": 2, \"why\": \"She does not feel confident asking questions in math class due to her dislike of the subject.\"},\n    \"26\": {\"rating\": 3, \"why\": \"Getting nervous when asking questions is moderate due to high neuroticism, though she might avoid it.\"},\n    \"27\": {\"rating\": 2, \"why\": \"Completing assignments in math is not something she believes she can do well due to her dislike.\"},\n    \"28\": {\"rating\": 4, \"why\": \"She worries about completing math assignments due to high neuroticism and low confidence in math.\"}\n  }\n}"
+    },
+    "parsed": {
+      "mode": "human",
+      "persona": {
+        "gender": "woman",
+        "sexual_orientation": "heterosexual",
+        "age": 40,
+        "city_of_living": "New York",
+        "employment_status": "employed full-time",
+        "education_level": "bachelor's degree",
+        "parents_education": {
+          "parent_1": "lower secondary",
+          "parent_2": "bachelor's degree"
+        },
+        "marital_status": "married",
+        "children": 1,
+        "migration_status": "native-born American",
+        "religious_beliefs": "Hinduism",
+        "hobbies": [
+          "cinema",
+          "birdwatching",
+          "gardening"
+        ],
+        "fav_subjects": [
+          "economics",
+          "art"
+        ],
+        "hat_subjects": [
+          "physics",
+          "maths"
+        ],
+        "ocean": {
+          "openness": {
+            "score": 63,
+            "level": "moderate"
+          },
+          "conscientiousness": {
+            "score": 4,
+            "level": "low"
+          },
+          "extraversion": {
+            "score": 48,
+            "level": "moderate"
+          },
+          "agreeableness": {
+            "score": 3,
+            "level": "low"
+          },
+          "neuroticism": {
+            "score": 71,
+            "level": "high"
+          }
+        }
+      },
+      "scales": {
+        "maes": {
+          "items": {
+            "1": {
+              "rating": 2,
+              "why": "Hates physics and maths, so confidence is very low for solving equations."
+            },
+            "2": {
+              "rating": 2,
+              "why": "Avoids math problems due to past dislike and low conscientiousness."
+            },
+            "3": {
+              "rating": 2,
+              "why": "Geometry requires logic which she dislikes and feels unconfident about."
+            },
+            "4": {
+              "rating": 2,
+              "why": "Algebra is part of maths she hates and finds difficult to grasp."
+            },
+            "5": {
+              "rating": 1,
+              "why": "Trigonometry is very advanced maths and she is not confident at all."
+            },
+            "6": {
+              "rating": 2,
+              "why": "Calculating area and volume involves maths she has no interest in."
+            },
+            "7": {
+              "rating": 1,
+              "why": "Sketching curves requires strong visual maths skills she lacks confidence in."
+            },
+            "8": {
+              "rating": 2,
+              "why": "Working with fractions is basic maths she dislikes and struggles with."
+            },
+            "9": {
+              "rating": 1,
+              "why": "Finding missing side lengths is geometry which she finds very difficult."
+            }
+          }
+        },
+        "amas": {
+          "items": {
+            "1": {
+              "rating": 3,
+              "why": "Moderate anxiety about using reference tables feels tedious but manageable for someone with moderate openness."
+            },
+            "2": {
+              "rating": 4,
+              "why": "Thinking about the test a day before causes significant worry due to high neuroticism and low conscientiousness."
+            },
+            "3": {
+              "rating": 3,
+              "why": "Watching algebraic equations on a blackboard triggers moderate stress given a dislike for physics and maths."
+            },
+            "4": {
+              "rating": 4,
+              "why": "Taking a math exam induces quite a lot of anxiety because of high neuroticism and dislike for the subject."
+            },
+            "5": {
+              "rating": 3,
+              "why": "Difficult homework due the next class causes moderate anxiety but is tolerable compared to exams."
+            },
+            "6": {
+              "rating": 2,
+              "why": "Listening to a lecture is less stressful than being tested but still uncomfortable due to low interest."
+            },
+            "7": {
+              "rating": 2,
+              "why": "Hearing a student explain a formula is slightly better than lectures but still feels a bit anxiety-inducing."
+            },
+            "8": {
+              "rating": 4,
+              "why": "Pop quizzes create quite a lot of anxiety due to sudden pressure combined with high neuroticism levels."
+            },
+            "9": {
+              "rating": 3,
+              "why": "Starting a new chapter feels moderately stressful as it implies upcoming work in a disliked subject area."
+            }
+          }
+        },
+        "mseaq": {
+          "items": {
+            "1": {
+              "rating": 2,
+              "why": "She has a bachelor's degree and likes economics, but dislikes math and physics, so she doesn't feel naturally good at math."
+            },
+            "2": {
+              "rating": 2,
+              "why": "Her preference for economics and art over math suggests she does not view herself as a math-oriented person type."
+            },
+            "3": {
+              "rating": 3,
+              "why": "She has moderate neuroticism and low conscientiousness, making her unsure about learning well in math despite some education."
+            },
+            "4": {
+              "rating": 2,
+              "why": "Given her dislike of math subjects, she doubts she could do well in future mathematics courses compared to other subjects."
+            },
+            "5": {
+              "rating": 2,
+              "why": "She dislikes math and physics, so understanding math content is not something she believes she can easily achieve."
+            },
+            "6": {
+              "rating": 2,
+              "why": "With low conscientiousness and a dislike for math, getting an A in math is not something she strongly believes in."
+            },
+            "7": {
+              "rating": 2,
+              "why": "Her dislike of math subjects means she doubts her ability to do the mathematics required in a math course."
+            },
+            "8": {
+              "rating": 4,
+              "why": "High neuroticism makes her very worried about not doing well on tests, especially in subjects she dislikes."
+            },
+            "9": {
+              "rating": 4,
+              "why": "High neuroticism causes significant tension when preparing for tests in math, a subject she finds unenjoyable."
+            },
+            "10": {
+              "rating": 4,
+              "why": "Taking math tests is stressful due to her high neuroticism and negative feelings toward math and physics."
+            },
+            "11": {
+              "rating": 4,
+              "why": "Her high neuroticism leads to intense worry about not getting an A in mathematics, a subject she dislikes."
+            },
+            "12": {
+              "rating": 4,
+              "why": "She is anxious about grades generally due to high neuroticism, especially in math which she dislikes."
+            },
+            "13": {
+              "rating": 2,
+              "why": "Low self-efficacy in math means she does not feel confident taking math tests despite her moderate personality."
+            },
+            "14": {
+              "rating": 2,
+              "why": "She dislikes math and physics, so she does not strongly believe she can do well on math tests."
+            },
+            "15": {
+              "rating": 4,
+              "why": "High neuroticism makes working on math homework stressful, as math is a subject she actively dislikes."
+            },
+            "16": {
+              "rating": 4,
+              "why": "She gets nervous using math outside school due to high anxiety and dislike for math subjects."
+            },
+            "17": {
+              "rating": 2,
+              "why": "Confidence in using math outside school is low because she dislikes math and prefers art and economics."
+            },
+            "18": {
+              "rating": 4,
+              "why": "She worries significantly about future career math needs due to high neuroticism and dislike of math."
+            },
+            "19": {
+              "rating": 4,
+              "why": "Understanding math is difficult for her due to high neuroticism and her stated dislike of math and physics."
+            },
+            "20": {
+              "rating": 4,
+              "why": "She worries she cannot learn math well due to high neuroticism and her preference for art over math."
+            },
+            "21": {
+              "rating": 4,
+              "why": "Listening to math instructors is stressful for her because of high neuroticism and dislike for math."
+            },
+            "22": {
+              "rating": 2,
+              "why": "She doubts her ability to use math in her career due to low self-efficacy and dislike of the subject."
+            },
+            "23": {
+              "rating": 4,
+              "why": "She worries she doesn't know enough math for future courses due to high neuroticism and dislike of math."
+            },
+            "24": {
+              "rating": 4,
+              "why": "Fear of giving incorrect answers is high due to her high neuroticism and dislike of math."
+            },
+            "25": {
+              "rating": 2,
+              "why": "She does not feel confident asking questions in math class due to her dislike of the subject."
+            },
+            "26": {
+              "rating": 3,
+              "why": "Getting nervous when asking questions is moderate due to high neuroticism, though she might avoid it."
+            },
+            "27": {
+              "rating": 2,
+              "why": "Completing assignments in math is not something she believes she can do well due to her dislike."
+            },
+            "28": {
+              "rating": 4,
+              "why": "She worries about completing math assignments due to high neuroticism and low confidence in math."
+            }
+          }
+        }
+      }
+    }
+  }
+}

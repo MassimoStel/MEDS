@@ -1,0 +1,472 @@
+{
+  "run_id": "8dac28c810",
+  "call_name": "call3_forma_mentis_batch1",
+  "task": "call3",
+  "mode": "human",
+  "persona": {
+    "gender": "man",
+    "sexual_orientation": "asexual",
+    "age": 40,
+    "city_of_living": "Naples",
+    "employment_status": "employed full-time",
+    "education_level": "lower secondary",
+    "parents_education": {
+      "parent_1": "bachelor's degree",
+      "parent_2": "lower secondary"
+    },
+    "marital_status": "married",
+    "children": 0,
+    "migration_status": "native-born Italian",
+    "religious_beliefs": "Atheist",
+    "hobbies": [
+      "gardening",
+      "travel",
+      "classical music"
+    ],
+    "fav_subjects": [
+      "biology",
+      "physics"
+    ],
+    "hat_subjects": [
+      "literature",
+      "economics"
+    ],
+    "ocean": {
+      "openness": {
+        "score": 41,
+        "level": "moderate"
+      },
+      "conscientiousness": {
+        "score": 75,
+        "level": "high"
+      },
+      "extraversion": {
+        "score": 36,
+        "level": "moderate"
+      },
+      "agreeableness": {
+        "score": 14,
+        "level": "low"
+      },
+      "neuroticism": {
+        "score": 19,
+        "level": "low"
+      }
+    }
+  },
+  "model": "ibm/granite-4-h-tiny",
+  "base_url": "http://127.0.0.1:1234",
+  "response_parsed": {
+    "task": "call3",
+    "run_id": "8dac28c810",
+    "mode": "human",
+    "persona": {
+      "gender": "man",
+      "sexual_orientation": "asexual",
+      "age": 40,
+      "city_of_living": "Naples",
+      "employment_status": "employed full-time",
+      "education_level": "lower secondary",
+      "parents_education": {
+        "parent_1": "bachelor's degree",
+        "parent_2": "lower secondary"
+      },
+      "marital_status": "married",
+      "children": 0,
+      "migration_status": "native-born Italian",
+      "religious_beliefs": "Atheist",
+      "hobbies": [
+        "gardening",
+        "travel",
+        "classical music"
+      ],
+      "fav_subjects": [
+        "biology",
+        "physics"
+      ],
+      "hat_subjects": [
+        "literature",
+        "economics"
+      ],
+      "ocean": {
+        "openness": {
+          "score": 41,
+          "level": "moderate"
+        },
+        "conscientiousness": {
+          "score": 75,
+          "level": "high"
+        },
+        "extraversion": {
+          "score": 36,
+          "level": "moderate"
+        },
+        "agreeableness": {
+          "score": 14,
+          "level": "low"
+        },
+        "neuroticism": {
+          "score": 19,
+          "level": "low"
+        }
+      }
+    },
+    "cue_words": [
+      "mathematics",
+      "numbers",
+      "study",
+      "informatics",
+      "teacher",
+      "homework",
+      "data",
+      "society",
+      "music",
+      "algorithm",
+      "work",
+      "blackboard",
+      "LLM",
+      "failure",
+      "chemistry",
+      "problem-solving",
+      "proof",
+      "physics",
+      "creativity",
+      "student",
+      "classroom",
+      "lecture",
+      "job",
+      "variable",
+      "professor"
+    ],
+    "parsed": {
+      "mode": "human",
+      "forma_mentis": {
+        "mathematics": {
+          "associations": [
+            "numbers",
+            "study",
+            "data"
+          ],
+          "valence": {
+            "mathematics": 3,
+            "numbers": 4,
+            "study": 5,
+            "data": 4
+          }
+        },
+        "numbers": {
+          "associations": [
+            "mathematics",
+            "study",
+            "data"
+          ],
+          "valence": {
+            "numbers": 5,
+            "mathematics": 4,
+            "study": 5,
+            "data": 4
+          }
+        },
+        "study": {
+          "associations": [
+            "mathematics",
+            "numbers",
+            "data"
+          ],
+          "valence": {
+            "study": 5,
+            "mathematics": 3,
+            "numbers": 4,
+            "data": 4
+          }
+        },
+        "informatics": {
+          "associations": [
+            "mathematics",
+            "teacher",
+            "student"
+          ],
+          "valence": {
+            "informatics": 2,
+            "mathematics": 3,
+            "teacher": 4,
+            "student": 4
+          }
+        },
+        "teacher": {
+          "associations": [
+            "mathematics",
+            "informatics",
+            "student"
+          ],
+          "valence": {
+            "teacher": 4,
+            "mathematics": 2,
+            "informatics": 2,
+            "student": 5
+          }
+        },
+        "homework": {
+          "associations": [
+            "mathematics",
+            "study",
+            "data"
+          ],
+          "valence": {
+            "homework": 3,
+            "mathematics": 2,
+            "study": 5,
+            "data": 4
+          }
+        },
+        "data": {
+          "associations": [
+            "mathematics",
+            "numbers",
+            "homework"
+          ],
+          "valence": {
+            "data": 4,
+            "mathematics": 4,
+            "numbers": 5,
+            "homework": 4
+          }
+        },
+        "society": {
+          "associations": [
+            "informatics",
+            "student",
+            "job"
+          ],
+          "valence": {
+            "society": 3,
+            "informatics": 2,
+            "student": 4,
+            "job": 4
+          }
+        },
+        "music": {
+          "associations": [
+            "creativity",
+            "study",
+            "problem-solving"
+          ],
+          "valence": {
+            "music": 4,
+            "creativity": 5,
+            "study": 5,
+            "problem-solving": 5
+          }
+        },
+        "algorithm": {
+          "associations": [
+            "mathematics",
+            "proof",
+            "work"
+          ],
+          "valence": {
+            "algorithm": 3,
+            "mathematics": 2,
+            "proof": 4,
+            "work": 4
+          }
+        },
+        "work": {
+          "associations": [
+            "informatics",
+            "student",
+            "teacher"
+          ],
+          "valence": {
+            "work": 3,
+            "informatics": 2,
+            "student": 4,
+            "teacher": 4
+          }
+        },
+        "blackboard": {
+          "associations": [
+            "teacher",
+            "lecture",
+            "classroom"
+          ],
+          "valence": {
+            "blackboard": 2,
+            "teacher": 5,
+            "lecture": 5,
+            "classroom": 5
+          }
+        },
+        "LLM": {
+          "associations": [
+            "informatics",
+            "algorithm",
+            "job"
+          ],
+          "valence": {
+            "LLM": 1,
+            "informatics": 3,
+            "algorithm": 3,
+            "job": 4
+          }
+        },
+        "failure": {
+          "associations": [
+            "mathematics",
+            "problem-solving",
+            "proof"
+          ],
+          "valence": {
+            "failure": 2,
+            "mathematics": 2,
+            "problem-solving": 4,
+            "proof": 4
+          }
+        },
+        "chemistry": {
+          "associations": [
+            "study",
+            "blackboard",
+            "lecture"
+          ],
+          "valence": {
+            "chemistry": 3,
+            "study": 5,
+            "blackboard": 2,
+            "lecture": 4
+          }
+        },
+        "problem-solving": {
+          "associations": [
+            "mathematics",
+            "chemistry",
+            "student"
+          ],
+          "valence": {
+            "problem-solving": 5,
+            "mathematics": 2,
+            "chemistry": 4,
+            "student": 5
+          }
+        },
+        "proof": {
+          "associations": [
+            "mathematics",
+            "algorithm",
+            "failure"
+          ],
+          "valence": {
+            "proof": 4,
+            "mathematics": 3,
+            "algorithm": 3,
+            "failure": 2
+          }
+        },
+        "physics": {
+          "associations": [
+            "study",
+            "blackboard",
+            "lecture"
+          ],
+          "valence": {
+            "physics": 3,
+            "study": 5,
+            "blackboard": 3,
+            "lecture": 4
+          }
+        },
+        "creativity": {
+          "associations": [
+            "music",
+            "problem-solving",
+            "student"
+          ],
+          "valence": {
+            "creativity": 5,
+            "music": 5,
+            "problem-solving": 5,
+            "student": 5
+          }
+        },
+        "student": {
+          "associations": [
+            "mathematics",
+            "teacher",
+            "classroom"
+          ],
+          "valence": {
+            "student": 5,
+            "mathematics": 3,
+            "teacher": 4,
+            "classroom": 5
+          }
+        },
+        "classroom": {
+          "associations": [
+            "study",
+            "lecture",
+            "blackboard"
+          ],
+          "valence": {
+            "classroom": 5,
+            "study": 5,
+            "lecture": 5,
+            "blackboard": 5
+          }
+        },
+        "lecture": {
+          "associations": [
+            "classroom",
+            "teacher",
+            "informatics"
+          ],
+          "valence": {
+            "lecture": 5,
+            "classroom": 5,
+            "teacher": 4,
+            "informatics": 2
+          }
+        },
+        "job": {
+          "associations": [
+            "work",
+            "student",
+            "professor"
+          ],
+          "valence": {
+            "job": 3,
+            "work": 4,
+            "student": 4,
+            "professor": 4
+          }
+        },
+        "variable": {
+          "associations": [
+            "mathematics",
+            "informatics",
+            "problem-solving"
+          ],
+          "valence": {
+            "variable": 4,
+            "mathematics": 3,
+            "informatics": 2,
+            "problem-solving": 5
+          }
+        },
+        "professor": {
+          "associations": [
+            "teacher",
+            "lecture",
+            "classroom"
+          ],
+          "valence": {
+            "professor": 4,
+            "teacher": 5,
+            "lecture": 5,
+            "classroom": 5
+          }
+        }
+      }
+    }
+  }
+}
