@@ -56,6 +56,6 @@ A total of 140K JSON files compose the final dataset, with 2000 personas (around
 
 ## Contributors
 
-* Anthony Tricarico (@anthony-tricarico)[https://github.com/anthony-tricarico]
-* Luisa Porzio (@LuPorzio)[https://github.com/LuPorzio]
-* Naomi Esposito (@Naomiamii)[https://github.com/Naomiamii/Naomiamii]
+* Anthony Tricarico [(@anthony-tricarico)](https://github.com/anthony-tricarico)
+* Luisa Porzio [(@LuPorzio)](https://github.com/LuPorzio)
+* Naomi Esposito [(@Naomiamii)](https://github.com/Naomiamii/Naomiamii)
