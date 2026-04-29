@@ -59,3 +59,10 @@ A total of 140K JSON files compose the final dataset, with 2000 personas (around
 * Anthony Tricarico [(@anthony-tricarico)](https://github.com/anthony-tricarico)
 * Luisa Porzio [(@LuPorzio)](https://github.com/LuPorzio)
 * Naomi Esposito [(@Naomiamii)](https://github.com/Naomiamii/Naomiamii)
+
+## Acknowledgements
+
+This work is part of the PENSO project, supported by the Ministero dell'Università e della Ricerca (MUR)
+according to Decreto N. 23178 of 10 dicembre 2024 — Bando FIS 2. The authors acknowledge support from
+CALCOLO, funded by Fondazione VRT, for support with the computational infrastructure simulating LLMs.
+
