@@ -1,4 +1,4 @@
-# MEDS
+# Math Education Digital Shadows (MEDS) Dataset
 
 ![main_infographic](./00-assets/images/main_infographic.jpeg)
 
@@ -53,3 +53,9 @@ A total of 140K JSON files compose the final dataset, with 2000 personas (around
     ├── sampled                       # Contains the list of run ids that were sampled from the raw data to ensure reproducibility.
     └── validations                   # Contains additional re-elaborations of the processed data used for the purpose of validating the MEDS dataset split by Task number.
 ```
+
+## Contributors
+
+Anthony Tricarico (@anthony-tricarico)[https://github.com/anthony-tricarico]
+Luisa Porzio (@LuPorzio)[https://github.com/LuPorzio]
+Naomi Esposito (@Naomiamii)[https://github.com/Naomiamii/Naomiamii]
