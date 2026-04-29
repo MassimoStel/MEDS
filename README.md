@@ -29,6 +29,7 @@ A total of 140K JSON files compose the final dataset, with 2000 personas (around
 ## Directory Structure
 
 ```
+.
 ├── 00-assets
 │   └── images
 ├── 01-original_data                  # Directory containing the MEDS dataset (2,000 personas for each of the 14 models, for a total of 10,000 files for each model (140K JSON files)).
