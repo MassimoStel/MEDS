@@ -84,7 +84,7 @@ A total of 140K JSON files compose the final dataset, with 2000 personas (around
 * Dr. Ali Aghazadeh Ardebili [(@NaviDATA-Repos)](https://github.com/NaviDATA-Repos)
 * Prof. Massimo Stella [(@MassimoStel)](https://github.com/MassimoStel)
 
-Created within CogNosco Lab - [(Check our Research)]([https://github.com/MassimoStel](https://cognosco.dipsco.unitn.it/))
+Created within CogNosco Lab - Check our Research: https://cognosco.dipsco.unitn.it/
 
 <p align="center">
   <img src="./00-assets/images/NewLogoCognosco.png" alt="FIS logo" height="240">
