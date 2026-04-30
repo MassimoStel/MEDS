@@ -1,6 +1,27 @@
-# Math Education Digital Shadows (MEDS) Dataset
+<p align="center">
+  <img src="./00-assets/images/logofis.png" alt="FIS logo" height="180">
+  <img src="./00-assets/images/PENSO_Logo.png" alt="PENSO logo" height="240">
+</p>
 
-![main_infographic](./00-assets/images/main_infographic.jpeg)
+<p align="center">
+  FIS2 Project PENSO - Funded by MUR - CogNosco Lab, University of Trento
+</p>
+
+<h1 align="center">
+  Math Education Digital Shadows (MEDS) Dataset
+</h1>
+
+<p align="center">
+  🤖 LLMs · 🧮 Mathematics · 😊 Confidence · 😟 Anxiety · 🤔 Reasoning · 📊 Data
+</p>
+
+<p align="center">
+  <img src="./00-assets/images/main_infographic.jpeg" alt="MEDS main infographic" width="850">
+</p>
+
+## If you use this dataset, please cite the paper introducing it:
+
+Esposito, N., Tricarico, A., Porzio, L., Aghazadeh Ardebili, A., & Stella, M. (2026). Math education digital shadows for facilitating learning with LLMs: Math performance, anxiety and confidence in simulated students and AIs. arXiv preprint.
 
 ## Overview
 
@@ -60,6 +81,15 @@ A total of 140K JSON files compose the final dataset, with 2000 personas (around
 * Anthony Tricarico [(@anthony-tricarico)](https://github.com/anthony-tricarico)
 * Luisa Porzio [(@LuPorzio)](https://github.com/LuPorzio)
 * Naomi Esposito [(@Naomiamii)](https://github.com/Naomiamii/Naomiamii)
+* Dr. Ali Aghazadeh Ardebili [(@NaviDATA-Repos)](https://github.com/NaviDATA-Repos)
+* Prof. Massimo Stella [(@MassimoStel)](https://github.com/MassimoStel)
+
+Created within CogNosco Lab - [(Check our Research)]([https://github.com/MassimoStel](https://cognosco.dipsco.unitn.it/))
+
+<p align="center">
+  <img src="./00-assets/images/NewLogoCognosco.png" alt="FIS logo" height="240">
+  <img src="./00-assets/images/PENSO_Logo.png" alt="PENSO logo" height="240">
+</p>
 
 ## Acknowledgements
 
