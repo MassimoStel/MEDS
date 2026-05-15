@@ -421,8 +421,10 @@ class ParsedContentCall2(BaseModel):
                     if isinstance(items_dict, dict):
                         cleaned_items = {}
                         for k, v in items_dict.items():
-                            clean_k = str(k).lower().replace(
-                                "items_", "").replace("item_", "").strip()
+                            nums = re.findall(r'\d+', str(k))
+                            clean_k = nums[0] if nums else str(
+                                k).lower().strip()
+
                             if isinstance(v, dict) and 'rating' in v:
                                 try:
                                     rating_val = int(v['rating'])
@@ -433,7 +435,6 @@ class ParsedContentCall2(BaseModel):
                                 except (ValueError, TypeError):
                                     pass
                             cleaned_items[clean_k] = v
-
                         if len(cleaned_items) > expected_count:
                             trimmed_keys = list(cleaned_items.keys())[
                                 :expected_count]

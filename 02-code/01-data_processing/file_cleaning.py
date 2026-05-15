@@ -20,18 +20,21 @@ app = marimo.App(width="medium")
 @app.cell
 def _():
     import marimo as mo
-
-    return (mo,)
+    from pathlib import Path
+    import sys
+    sys.path.insert(0, str(Path(__file__).parent / "scripts"))
+    print(Path(__file__).parent / "scripts")
+    return Path, mo
 
 
 @app.cell
 def _():
-    import sys
-    sys.path.append("scripts")
+    # from pathlib import Path
+    # import sys
+    # sys.path.append(Path(__file__).parent / "scripts")
 
     from datetime import datetime
     import json
-    from pathlib import Path
     from typing import Any, Dict, Set
     import os
 
@@ -41,12 +44,10 @@ def _():
 
     color_human = '#648fff' 
     color_llm = '#fe6100'
-
     return (
         DataValidator,
         Dict,
         FOLDER_NAME_MAPPING,
-        Path,
         color_human,
         color_llm,
         json,
@@ -80,33 +81,55 @@ def _(mo):
 
 
 @app.cell
-def _(DataValidator):
-    DATA_PATH = "../../01-original_data/"
+def _(mo):
+    mo.callout(
+        mo.md("""## Warning
+        This section might take some time to run due to the validation being run on all the files in the dataset."""),
+        kind="warn"
+    )
+    return
+
+
+@app.cell
+def _(DataValidator, Path):
+    DATA_PATH = Path("01-original_data/").resolve().absolute()
     # Initialize the DataValidator object
     dv = DataValidator(DATA_PATH)
-    # This is the main public method of the validator object. This method is in charge of carrying out the entire validation / cleaning procedure.
-    dv.validate_data()
     return (dv,)
 
 
 @app.cell
 def _(dv):
+    # This is the main public method of the validator object. This method is in charge of carrying out the entire validation / cleaning procedure.
+    dv.validate_data()
+    return
+
+
+@app.cell
+def _(dv):
+    # This is the alternative method signature that allows to save files in one go
+    dv.validate_data(processed_dir="../../test-validator")
+    return
+
+
+@app.cell
+def _():
     # Get the total number of correct files
-    dv.get_correct_files()
+    # dv.get_correct_files()
     return
 
 
 @app.cell
-def _(dv):
+def _():
     # Get the total number of correct files split by model
-    dv.get_number_correct_files_by_model()
+    # dv.get_number_correct_files_by_model()
     return
 
 
 @app.cell
-def _(dv):
+def _():
     # Get details of correct files split by calls for each model.
-    dv.get_detail_correct_files_by_model()
+    # dv.get_detail_correct_files_by_model()
     return
 
 
@@ -114,7 +137,7 @@ def _(dv):
 def _(dv):
     # Extract the proportion of Human and LLMS.
     dv.get_mode_proportions()
-    dv.proportions
+    _prop = dv.proportions
     return
 
 
