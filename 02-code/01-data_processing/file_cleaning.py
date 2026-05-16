@@ -92,7 +92,7 @@ def _(mo):
 
 @app.cell
 def _(DataValidator, Path):
-    DATA_PATH = Path("01-original_data/").resolve().absolute()
+    DATA_PATH = (Path(__file__).parent.parent.parent / "01-original_data/").resolve().absolute()
     # Initialize the DataValidator object
     dv = DataValidator(DATA_PATH)
     return (dv,)
@@ -106,9 +106,9 @@ def _(dv):
 
 
 @app.cell
-def _(dv):
+def _(Path, dv):
     # This is the alternative method signature that allows to save files in one go
-    dv.validate_data(processed_dir="../../test-validator")
+    dv.validate_data(processed_dir=Path(__file__).parent.parent.parent / "test-validator-2")
     return
 
 

@@ -414,16 +414,24 @@ class ParsedContentCall2(BaseModel):
 
         if isinstance(scales, dict):
             expected_counts = {'maes': 9, 'amas': 9, 'mseaq': 28}
+            # this step ensures that the scales in the JSON have the names specified above
             for scale_name, expected_count in expected_counts.items():
+                # This is the fallback variable that is used in case no number is detected
+                # in the original key string.
+                item_num = 1
                 if scale_name in scales and isinstance(scales[scale_name], dict):
                     items_dict = scales[scale_name].get('items')
 
                     if isinstance(items_dict, dict):
                         cleaned_items = {}
+                        # this is the section of the code that corrects the keys
+                        # only extracting the number (if any).
                         for k, v in items_dict.items():
                             nums = re.findall(r'\d+', str(k))
-                            clean_k = nums[0] if nums else str(
-                                k).lower().strip()
+                            # This is the conditional logic enacted to make sure that
+                            # even if no number is found then the fallback numeric variable is used.
+                            clean_k = nums[0] if nums else str(item_num)
+                            item_num += 1
 
                             if isinstance(v, dict) and 'rating' in v:
                                 try:
